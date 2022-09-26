@@ -1,4 +1,36 @@
 @charset "UTF-8";
-.pants {
-	color: Red;
+
+.content {
+	height: 900px;
+	width: 1600px;
+	background: #000001;
+	position: absolute;
+}
+
+.header {
+	height: 750px;
+	width: 1600px;
+	background: #000010;
+	position: relative;
+}
+
+.content .body1 {
+	height: 700px;
+	width: 1600px;
+	background: #000100;
+	position: relative;
+}
+
+.content .body2 {
+	height: 750px;
+	width: 1600px;
+	background: #001000;
+	position: relative;
+}
+
+.footer {
+	height: 100px;
+	width: 1600px;
+	background: #010000;
+	position: relative;
 }
