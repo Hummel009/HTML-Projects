@@ -8,10 +8,12 @@
 	width: 100%;
 }
 
-.header-background {
+.header-background,
+.footer-background {
 	position: relative;
 }
-.header-navigation {
+.header-navigation,
+.footer-navigation {
 	position: absolute;
 	width: 100%;
 }
@@ -58,4 +60,13 @@
 }
 [class^="button"]:hover {
 	border-top: 2px solid White;
+}
+.slave {
+	color: White;
+	padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slave td {
+	width: 33%;
 }
