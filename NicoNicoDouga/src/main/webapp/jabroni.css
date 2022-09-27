@@ -7,7 +7,51 @@
 	position: absolute;
 	width: 100%;
 }
-
+.section_0_label {
+	text-align: center;
+	margin-top: 150px;
+	width: 700px;
+	height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: White;
+    font-family: 'Yeseva One';
+    font-size: 250%;
+}
+.section_0_separator {
+	width: 200px;
+	height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: White;
+}
+.section_0_buttons {
+	width: 300px;
+	height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: White;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.section_0_buttons [class^="button"] {
+	padding: 10px;
+	margin-right: 2px;
+	margin-left: 2px;
+	color: White;
+    transition: 0.25s;
+    font-family: 'Gentium Book Basic';
+    font-size: 14px;
+    line-height: 18px;
+	background: rgba(0, 0, 0, 0.6);
+	border: 2px solid #000000;
+}
+.section_0_buttons [class^="button"]:hover,
+.section_0_buttons [class^="button"]:hover {
+	background: rgba(229,208,179, 0.6);
+	border: 2px solid #e5d0b3;
+}
 .header-background,
 .footer-background {
 	position: relative;
@@ -35,7 +79,7 @@
     font-size: 18px;
     line-height: 18px;
 }
-[class^="button"] {
+.header-buttons-panel>[class^="button"] {
 	padding: 10px;
 	margin-right: 2px;
 	margin-left: 2px;
@@ -55,10 +99,16 @@
     font-size: 14px;
     line-height: 18px;
 }
-[class^="icon"]:hover {
+
+[class^="icon"] a{
+	color: #e8b42e;
+    transition: 0.25s;
+}
+[class^="icon"]:hover,
+[class^="icon"] a:hover {
 	color: White;
 }
-[class^="button"]:hover {
+.header-buttons-panel>[class^="button"]:hover {
 	border-top: 2px solid White;
 }
 .slave {
@@ -68,6 +118,9 @@
     margin-left: auto;
     margin-right: auto;
     font-family: 'Open Sans';
+}
+.slave a {
+	color: White;
 }
 .slave td {
 	width: 33%;
