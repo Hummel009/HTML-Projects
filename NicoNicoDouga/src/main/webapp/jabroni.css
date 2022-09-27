@@ -1,20 +1,10 @@
 @charset "UTF-8";
 
-.content {
-	width: 100%;
-	position: absolute;
-}
-[class^="section"] {
-	width: 100%;
+.content_0 {
 	position: relative;
-}
-.section_0>img {
-	margin-top: -100px;
 }
 .header {
+	position: absolute;
 	width: 100%;
-	position: relative;
-	height: 100px;
-	background: Black;
-	opacity: 0.5;
+	height: auto;
 }
