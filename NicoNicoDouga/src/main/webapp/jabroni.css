@@ -23,6 +23,16 @@
     margin-right: auto;
     width: 700px;
 }
+.logo {
+	padding: 10px;
+	margin-right: 66px;
+	margin-left: 2px;
+	border-top: 2px solid transparent;
+	color: White;
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 18px;
+}
 [class^="button"] {
 	padding: 10px;
 	margin-right: 2px;
@@ -30,17 +40,9 @@
 	border-top: 2px solid transparent;
 	color: White;
     transition: 0.25s;
-    font-size: 10px;
-    line-height: 14px;
-}
-.logo {
-	padding: 10px;
-	margin-right: 66px;
-	margin-left: 2px;
-	border-top: 2px solid transparent;
-	color: White;
+    font-family: 'Gentium Book Basic';
     font-size: 14px;
-    font-family: 'Yeseva One';
+    line-height: 18px;
 }
 [class^="icon"] {
 	padding: 10px;
@@ -49,6 +51,7 @@
 	color: #e8b42e;
     transition: 0.25s;
     font-size: 14px;
+    line-height: 18px;
 }
 [class^="icon"]:hover {
 	color: White;
