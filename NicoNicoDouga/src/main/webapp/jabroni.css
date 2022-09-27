@@ -2,42 +2,19 @@
 
 .content {
 	width: 100%;
-	min-height: 5000px;
-	background: #E4E6E6;
 	position: absolute;
 }
 [class^="section"] {
 	width: 100%;
 	position: relative;
 }
-.section_0 {
-	min-height: 750px;
-	background: Black;
-}
-.section_1 {
-	min-height: 700px;
-}
-.section_2 {
-	min-height: 758px;
-	background: Black;
-}
-.section_3 {
-	min-height: 994px;
-}
-.section_4 {
-	min-height: 758px;
-	background: Black;
-}
-.section_5 {
-	min-height: 710px;
+.section_0>img {
+	margin-top: -100px;
 }
 .header {
 	width: 100%;
 	position: relative;
-	min-height: 100px;
-	background: Yellow;
-}
-.footer {
-	min-height: 320px;
+	height: 100px;
 	background: Black;
+	opacity: 0.5;
 }
