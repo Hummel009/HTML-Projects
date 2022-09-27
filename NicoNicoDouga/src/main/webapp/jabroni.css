@@ -3,12 +3,28 @@
 [class^="content"] {
 	width: 1600px;
 }
-/*** SECTION 0 ***/
+/*** BACKGROUNDS ***/
 .section_0>img{
 	height: 750px;
 	object-fit: cover;
 	object-position: 100% 0;
 }
+.section_2>img {
+	height: 758px;
+	object-fit: cover;
+	object-position: 100% 0;
+}
+.section_4>img {
+	height: 758px;
+	object-fit: cover;
+	object-position: 20% 80%;
+}
+.footer>img {
+	height: 320px;
+	object-fit: cover;
+	object-position: 100% 0;
+}
+/*** SECTION 0 ***/
 .section_0_label {
 	text-align: center;
 	margin-top: 160px;
@@ -141,17 +157,32 @@
 	position: absolute;
 	width: 1600px;
 }
-.slave {
-	padding: 80px;
-	padding-top: 120px;
+.footer .slave {
+	padding-top: 55px;
 	color: White;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Open Sans';
+    width: 1200px;
+	font-size: 16px;
+	line-height: 24px;
 }
-.slave a {
+.footer .slave a {
 	color: White;
 }
-.slave td {
+.footer .slave td {
 	width: 33%;
+}
+.footer .table-header {
+	font-family: Yeseva One; 
+	font-size: 21px !important;
+}
+.footer i {
+	margin-right: 7px;
+}
+.footer .top-sizer {
+	height: 11px;
+}
+.footer .bottom-sizer {
+	height: 11px;
 }
