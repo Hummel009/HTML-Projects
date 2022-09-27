@@ -1,33 +1,34 @@
 @charset "UTF-8";
 
-.content_0 {
-	position: relative;
+[class^="content"] {
+	width: 1600px;
 }
-.header {
-	position: absolute;
-	width: 100%;
+/*** SECTION 0 ***/
+.section_0>img{
+	height: 750px;
+	object-fit: cover;
+	object-position: 100% 0;
 }
 .section_0_label {
 	text-align: center;
-	margin-top: 150px;
-	width: 700px;
-	height: 150px;
-    margin-left: auto;
-    margin-right: auto;
+	margin-top: 160px;
+	width: 1600px;
+	height: 260px;
     color: White;
     font-family: 'Yeseva One';
-    font-size: 250%;
+    font-size: 90px;
+    line-height: 120px;
 }
 .section_0_separator {
-	width: 200px;
-	height: 100px;
+	width: 230px;
+	height: 90px;
     margin-left: auto;
     margin-right: auto;
     color: White;
 }
 .section_0_buttons {
-	width: 300px;
-	height: 50px;
+	width: 700px;
+	height: 40px;
     margin-left: auto;
     margin-right: auto;
     color: White;
@@ -36,32 +37,40 @@
     justify-content: center;
 }
 .section_0_buttons [class^="button"] {
-	padding: 10px;
-	margin-right: 2px;
-	margin-left: 2px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-right: 15px;
+	margin-left: 15px;
+	
 	color: White;
     transition: 0.25s;
     font-family: 'Gentium Book Basic';
-    font-size: 14px;
+    font-size: 18px;
     line-height: 18px;
 	background: rgba(0, 0, 0, 0.6);
 	border: 2px solid #000000;
 }
-.section_0_buttons [class^="button"]:hover,
 .section_0_buttons [class^="button"]:hover {
 	background: rgba(229,208,179, 0.6);
 	border: 2px solid #e5d0b3;
 }
-.header-background,
-.footer-background {
+/*** HEADER ***/
+.section_0 {
 	position: relative;
 }
-.header-navigation,
-.footer-navigation {
+.header {
 	position: absolute;
-	width: 100%;
+	width: 1600px;
 }
-
+.header-background {
+	position: relative;
+}
+.header-navigation {
+	position: absolute;
+	width: 1600px;
+}
 .header-buttons-panel {
     display: flex;
 	height: 50px;
@@ -69,17 +78,17 @@
     margin-right: auto;
     width: 700px;
 }
-.logo {
+.header-buttons-panel .logo {
 	padding: 10px;
 	margin-right: 66px;
 	margin-left: 2px;
 	border-top: 2px solid transparent;
 	color: White;
     font-family: 'Yeseva One';
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 36px;
+    line-height: 36px;
 }
-.header-buttons-panel>[class^="button"] {
+.header-buttons-panel [class^="button"] {
 	padding: 10px;
 	margin-right: 2px;
 	margin-left: 2px;
@@ -87,29 +96,37 @@
 	color: White;
     transition: 0.25s;
     font-family: 'Gentium Book Basic';
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 21px;
+    line-height: 36px;
 }
-[class^="icon"] {
+.header-buttons-panel [class^="button"]:hover {
+	border-top: 2px solid White;
+}
+.header-buttons-panel [class^="icon"] {
 	padding: 10px;
 	margin-left: 2px;
 	border-top: 2px solid transparent;
 	color: #e8b42e;
     transition: 0.25s;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 21px;
+    line-height: 36px;
 }
-
-[class^="icon"] a{
+.header-buttons-panel [class^="icon"] a{
 	color: #e8b42e;
     transition: 0.25s;
 }
-[class^="icon"]:hover,
-[class^="icon"] a:hover {
+.header-buttons-panel [class^="icon"]:hover,
+.header-buttons-panel [class^="icon"] a:hover {
 	color: White;
 }
-.header-buttons-panel>[class^="button"]:hover {
-	border-top: 2px solid White;
+
+/*** FOOTER 0 ***/
+.footer-background {
+	position: relative;
+}
+.footer-navigation {
+	position: absolute;
+	width: 1600px;
 }
 .slave {
 	padding: 80px;
