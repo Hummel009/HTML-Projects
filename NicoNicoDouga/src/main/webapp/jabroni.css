@@ -217,16 +217,176 @@
     display: flex;
     align-items: center; 
     justify-content: center;
-}
-.section-3-content .column-left {
-	width: 800px;
-	height: 994px;
-	background: Red;
+    flex-wrap: wrap;
 }
 .section-3-content .column-right {
-	width: 800px;
-	height: 994px;
-	background: Yellow;
+	flex: 1;
+	padding-right: 285px;
+}
+.section-3-content .column-left {
+	flex: 1;
+	padding-left: 285px;
+}
+.section-3-content .container-lower-right {
+	padding-top: 30px;
+	padding-left: 85px;
+  	display: grid; 
+  	grid-template-columns: 1fr 1fr; 
+  	grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px 42px 55px; 
+  	gap: 0px 0px; 
+  	grid-template-areas: 
+    "title title"
+    "separator separator"
+    "name1 price1"
+    "desc1 desc1"
+    "special special"
+    "name2 price2"
+    "desc2 desc2"
+    "name3 price3"
+    "desc3 desc3"
+    "name4 price4"
+    "desc4 desc4"; 
+}
+.section-3-content .container-lower-left {
+	padding-top: 30px;
+	padding-right: 85px;
+  	display: grid; 
+  	grid-template-columns: 1fr 1fr; 
+  	grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px; 
+  	gap: 0px 0px; 
+  	grid-template-areas: 
+    "title title"
+    "separator separator"
+    "name1 price1"
+    "desc1 desc1"
+    "special special"
+    "name2 price2"
+    "desc2 desc2"
+    "name3 price3"
+    "desc3 desc3"; 
+}
+.section-3-content .container-upper-left {
+	padding-top: 100px;
+	padding-right: 85px;
+  	display: grid; 
+  	grid-template-columns: 1fr 1fr; 
+  	grid-template-rows: 59px 50px 42px 55px 42px 55px 42px 55px; 
+  	gap: 0px 0px; 
+  	grid-template-areas: 
+    "title title"
+    "separator separator"
+    "name1 price1"
+    "desc1 desc1"
+    "name2 price2"
+    "desc2 desc2"
+    "name3 price3"
+    "desc3 desc3"; 
+}
+.section-3-content .container-upper-right {
+	padding-top: 100px;
+	padding-left: 85px;
+  	display: grid; 
+  	grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 59px 50px 42px 55px 42px 55px;
+  	gap: 0px 0px; 
+  	grid-template-areas: 
+    "title title"
+    "separator separator"
+    "name1 price1"
+    "desc1 desc1"
+    "name2 price2"
+    "desc2 desc2"; 
+}
+.section-3-content .title { 
+	font-family: Yeseva One; 
+	font-size: 36px !important;
+	color: #dd9a00;
+	width: 100%;
+	text-align: center;
+	grid-area: title; 
+}
+.section-3-content .separator { 
+	grid-area: separator; 
+	display: flex;
+	justify-content: center;
+}
+.section-3-content .special { 
+	grid-area: special; 
+	text-align: right;
+	font-family: Lato; 
+	font-size: 14px !important;
+}
+.section-3-content .name1 { 
+	grid-area: name1; 
+	font-family: Yeseva One; 
+	font-size: 21px !important;
+	color: #dd9a00;
+}
+.section-3-content .price1 { 
+	grid-area: price1; 
+	text-align: right;
+	font-family: Yeseva One; 
+	font-size: 21px !important;
+	color: #dd9a00;
+}
+.section-3-content .desc1 { 
+	grid-area: desc1; 
+	font-family: Lato; 
+	font-size: 16px !important;
+}
+.section-3-content .name2 { 
+	grid-area: name2; 
+	font-family: Yeseva One; 
+	font-size: 21px !important;
+	color: #dd9a00;
+}
+.section-3-content .price2 { 
+	grid-area: price2; 
+	text-align: right;
+	font-family: Yeseva One; 
+	font-size: 21px !important;
+	color: #dd9a00;
+}
+.section-3-content .desc2 { 
+	grid-area: desc2; 
+	font-family: Lato; 
+	font-size: 16px !important;
+}
+.section-3-content .name3 { 
+	grid-area: name3; 
+	font-family: Yeseva One; 
+	font-size: 21px !important;
+	color: #dd9a00;
+}
+.section-3-content .price3 { 
+	grid-area: price3; 
+	text-align: right;
+	font-family: Yeseva One; 
+	font-size: 21px !important;
+	color: #dd9a00;
+}
+ .section-3-content .desc3 { 
+	grid-area: desc3; 
+	font-family: Lato; 
+	font-size: 16px !important;
+}
+.section-3-content .name4 { 
+	grid-area: name4; 
+	font-family: Yeseva One; 
+	font-size: 21px !important;
+	color: #dd9a00;
+}
+.section-3-content .price4 { 
+	grid-area: price4; 
+	text-align: right;
+	font-family: Yeseva One; 
+	font-size: 21px !important;
+	color: #dd9a00;
+}
+ .section-3-content .desc4 { 
+	grid-area: desc4; 
+	font-family: Lato; 
+	font-size: 16px !important;
 }
 
 /* SECTION 4 */
@@ -338,7 +498,7 @@
 .section-4>img {
 	height: 758px;
 	object-fit: cover;
-	object-position: 20% 80%;
+	object-position: 22% 78%;
 }
 .footer>img {
 	height: 320px;
