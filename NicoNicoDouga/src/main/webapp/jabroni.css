@@ -11,7 +11,7 @@
 .header {
 	position: absolute;
 	width: 1600px;
-  height: 159px;
+	height: 159px;
 }
 .header .buttons-panel {
     display: flex;
@@ -21,9 +21,9 @@
     width: 1600px;
 }
 .header .buttons-panel .logo {
-    padding-top: 40px;
-	margin-right: 207px;
-	margin-left: 185px;
+    padding-top: 41px;
+	margin-right: 214px;
+	margin-left: 179px;
 	border-top: 2px solid transparent;
 	color: White;
     font-family: 'Yeseva One';
@@ -31,12 +31,12 @@
     line-height: 36px;
 }
 .header .buttons-panel .button {
-    padding-top: 40px;
+    padding-top: 41px;
 	padding-right: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
-	margin-right: 14px;
-	margin-left: 14px;
+	margin-right: 16px;
+	margin-left: 15px;
 	border-top: 2px solid transparent;
 	color: White;
     transition: 0.25s;
@@ -51,8 +51,6 @@
     padding-top: 40px;
 	padding-right: 10px;
 	padding-bottom: 10px;
-	padding-left: 10px;
-	margin-left: 2px;
 	border-top: 2px solid transparent;
 	color: #e8b42e;
     transition: 0.25s;
@@ -91,7 +89,7 @@
 	height: 60px;
     margin-left: auto;
     margin-right: auto;
-	margin-top: 40px;
+	margin-top: 37px;
     color: White;
     display: flex;
     align-items: center; 
@@ -104,7 +102,7 @@
 	padding-right: 50px;
 	margin-right: 15px;
 	margin-left: 15px;
-    font-family: 'Gentium Book Basic';
+    font-family: 'Lato';
     font-size: 18px;
     line-height: 18px;
     transition: 0.25s;
@@ -131,31 +129,31 @@
 }
 .section-1-content {
 	position: absolute;
-	width: 1500px;
-	display: flex;
-	justify-content: center;
-	margin-left: 46px;
+	width: 1600px;
 }
 .section-1-content .block1 {
+	position: absolute;
 	height: 450px;
 	width: 450px;
-	margin-top: 107px;
-	margin-left: 58px;
-	margin-right: -3px;
+	float: left;
+	left: 291px;
+	top: 105px;
 }
 .section-1-content .block1 .auto img {
-	margin-top: 32px;
+	margin-top: 30px;
 	margin-left: 70px;
 }
 .section-1-content .block2 {
-	margin-top: 56px;
-	height: 620px;
-	width: 620px;
+	float: right;
+	margin-right: 240px;
+	margin-top: 55px;
+	height: 621px;
+	width: 621px;
 }
 .section-1-content .table {
 	font-size: 16px;
 	font-family: 'Lato';
-	line-height: 25px;
+	line-height: 24px;
 }
 .section-1-content .table-header {
 	font-family: 'Yeseva One' !important;
@@ -163,8 +161,9 @@
 	font-size: 36px;
 }
 .section-1-content .table-sizer {
-	height: 12px;
+	height: 15px;
 }
+
 /* SECTION 2 */
 .section-2 {
 	position: relative;
@@ -175,11 +174,59 @@
 }
 .section-2-content .block {
 	background: rgba(0,0,0, 0.5);
-	height: 556px;
+	height: 557px;
 	width: 570px;
 	float: right;
 	margin-top: 100px;
 	margin-right: 215px;
+	color: White;
+}
+.section-2-content .table {
+	margin-top: 82px;
+	width: 100%;
+	font-size: 16px;
+	font-family: 'Lato';
+	line-height: 24px;
+}
+.section-2-content .buttons-panel {
+	width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.section-2-content .table-header {
+	font-family: Yeseva One; 
+	font-size: 36px !important;
+}
+.section-2-content .table-sizer {
+	height: 14px;
+}
+.section-2-content .auto {
+	margin-top: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* SECTION 3 */
+.section-3 {
+	position: relative;
+}
+.section-3-content {
+	position: absolute;
+	width: 1600px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.section-3-content .column-left {
+	width: 800px;
+	height: 994px;
+	background: Red;
+}
+.section-3-content .column-right {
+	width: 800px;
+	height: 994px;
+	background: Yellow;
 }
 
 /* SECTION 4 */
@@ -197,6 +244,41 @@
 	margin-top: 100px;
 	margin-right: auto;
 	margin-left: auto;
+	color: White;
+}
+.section-4-content .sigma {
+	font-family: 'Lato';
+	font-size: 18px;
+	color: White;
+}
+.section-4-content .quote {
+	position: absolute;
+	font-family: 'Georgia';
+	font-size: 96px;
+	line-height: 40px !important;
+	color: #a1a29c;
+	margin-left: 443px;
+	margin-top: 288px;
+}
+.section-4-content .table {
+	padding-top: 70px;
+	width: 100%;
+	font-size: 25px;
+	color: #dde1e0;
+    font-family: 'Gentium Book Basic';
+	line-height: 45px;
+}
+.section-4-content .table-header {
+	font-family: Yeseva One; 
+	font-size: 36px !important;
+}
+.section-4-content .auto {
+	margin-top: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.section-4-content .table-sizer {
+	height: 16px;
 }
 
 /*** FOOTER 0 ***/
@@ -216,6 +298,7 @@
     margin-left: auto;
     margin-right: auto;
     font-family: 'Open Sans';
+    font-weight: 400;
     width: 1200px;
 	font-size: 16px;
 	line-height: 24px;
@@ -232,6 +315,13 @@
 }
 .footer-content .table-sizer {
 	height: 11px;
+}
+.footer-content .table-sizer2 {
+	height: 7px;
+}
+.footer-content .bold-font {
+    font-family: 'Open Sans';
+    font-weight: 700 !important;
 }
 
 /*** BACKGROUNDS ***/
