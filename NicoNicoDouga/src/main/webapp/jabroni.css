@@ -76,7 +76,8 @@
     color: White;
     font-family: 'Yeseva One';
     font-size: 90px;
-    line-height: 120px;
+    line-height: 118px;
+	margin-top: 50px;
 }
 .section-0-content .separator {
 	width: 230px;
@@ -111,11 +112,11 @@
 }
 .section-0-content .content .buttons-panel .button#Dark {
 	background: rgba(0, 0, 0, 0.6);
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 }
 .section-0-content .content .buttons-panel .button#Light {
 	background: rgba(229, 208, 179, 0.3);
-	border: 2px solid #e5d0b3;
+	border: 1px solid #e5d0b3;
 }
 .section-0-content .content .buttons-panel .button#Dark:hover {
 	background: rgba(0, 0, 0, 0.8);
@@ -130,21 +131,40 @@
 }
 .section-1-content {
 	position: absolute;
-	width: 1600px;
+	width: 1500px;
 	display: flex;
 	justify-content: center;
+	margin-left: 46px;
 }
 .section-1-content .block1 {
-	background: Red;
-	height: 300px;
-	width: 300px;
+	height: 450px;
+	width: 450px;
+	margin-top: 107px;
+	margin-left: 58px;
+	margin-right: -3px;
+}
+.section-1-content .block1 .auto img {
+	margin-top: 32px;
+	margin-left: 70px;
 }
 .section-1-content .block2 {
-	background: Yellow;
-	height: 300px;
-	width: 300px;
+	margin-top: 56px;
+	height: 620px;
+	width: 620px;
 }
-
+.section-1-content .table {
+	font-size: 16px;
+	font-family: 'Lato';
+	line-height: 25px;
+}
+.section-1-content .table-header {
+	font-family: 'Yeseva One' !important;
+	color: #DD9A00;
+	font-size: 36px;
+}
+.section-1-content .table-sizer {
+	height: 12px;
+}
 /* SECTION 2 */
 .section-2 {
 	position: relative;
