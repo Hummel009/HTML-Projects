@@ -312,6 +312,7 @@
 }
 .section-3-content .special { 
 	grid-area: special; 
+	color: White;
 	text-align: right;
 	font-family: Lato; 
 	font-size: 14px !important;
@@ -388,7 +389,13 @@
 	font-family: Lato; 
 	font-size: 16px !important;
 }
-
+.special img {
+	position: relative;
+}
+.special span {
+	position: absolute;
+	margin-right: 10px;
+}
 /* SECTION 4 */
 .section-4 {
 	position: relative;
