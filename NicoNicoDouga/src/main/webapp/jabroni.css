@@ -64,62 +64,59 @@
 .section-0 .header .buttons-panel .icon a:hover {
 	color: White;
 }
-.section-0 .content .label {
+.section-0 .container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 261px 77px 57px;
+	grid-auto-columns: 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	"title title"
+	"separator separator"
+	"button-1 button-2";
 	text-align: center;
-	width: 1600px;
-	height: 260px;
 	color: White;
+	padding-top: 50px;
+}
+.section-0 .container .title {
+	grid-area: title;
 	font-family: 'Yeseva One';
 	font-size: 90px;
 	line-height: 118px;
-	margin-top: 50px;
 }
-.section-0 .content .separator {
-	width: 230px;
-	height: 40px;
-	margin-left: auto;
-	margin-right: auto;
-	color: White;
+.section-0 .container .separator {
+	grid-area: separator;
 }
-.section-0 .content .buttons-panel {
-	width: 700px;
-	height: 60px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 37px;
-	color: White;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.section-0 .content .buttons-panel .button {
-	padding-top: 18px;
-	padding-bottom: 18px;
-	padding-left: 50px;
-	padding-right: 50px;
-	margin-right: 15px;
-	margin-left: 15px;
+.section-0 .container [class^="button"] {
+	padding-top: 19px;
 	font-family: 'Lato';
 	font-size: 18px;
 	line-height: 18px;
 	transition: 0.25s;
-	color: White;
+	width: 226px;
 }
-.section-0 .content .buttons-panel .button#Dark {
+.section-0 .container .button-1 {
+	grid-area: button-1;
+	margin-right: 16px;
+	margin-left: auto; 
+	line-height: 18px;
 	background: rgba(0, 0, 0, 0.6);
 	border: 1px solid #000000;
 }
-.section-0 .content .buttons-panel .button#Light {
+.section-0 .container .button-2 {
+	grid-area: button-2;
+	padding-top: 19px;
+	margin-left: 14px;
 	background: rgba(229, 208, 179, 0.3);
 	border: 1px solid #e5d0b3;
 }
-.section-0 .content .buttons-panel .button#Dark:hover {
+.section-0 .container .button-1:hover {
 	background: rgba(0, 0, 0, 0.8);
 }
-.section-0 .content .buttons-panel .button#Light:hover {
+.section-0 .container .button-2:hover {
 	background: rgba(229, 208, 179, 0.5);
 }
-
 /*** SECTION 1 ***/
 .section-1 {
 	position: relative;
