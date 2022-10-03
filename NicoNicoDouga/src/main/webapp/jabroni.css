@@ -101,21 +101,21 @@
 	margin-right: 16px;
 	margin-left: auto; 
 	line-height: 18px;
-	background: rgba(0, 0, 0, 0.6);
-	border: 1px solid #000000;
+	background: rgba(0, 0, 0, 0.56);
+	border: 1px solid #rgba(0, 0, 0, 0.8);
 }
 .section-0 .container .button-2 {
 	grid-area: button-2;
 	padding-top: 19px;
 	margin-left: 14px;
-	background: rgba(229, 208, 179, 0.3);
-	border: 1px solid #e5d0b3;
+	background: rgba(255, 255, 255, 0.196);
+	border: 1px solid rgba(255, 255, 255, 0.7);
 }
 .section-0 .container .button-1:hover {
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.76);
 }
 .section-0 .container .button-2:hover {
-	background: rgba(229, 208, 179, 0.5);
+	background: rgba(255, 255, 255, 0.396);
 }
 /*** SECTION 1 ***/
 .section-1 {
