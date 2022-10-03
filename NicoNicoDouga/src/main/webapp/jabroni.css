@@ -243,13 +243,12 @@
 }
 .section-3 .column-right {
 	flex: 1;
-	padding-right: 285px;
 }
 .section-3 .column-left {
 	flex: 1;
-	padding-left: 285px;
 }
 .section-3 .container-lower-right {
+	padding-right: 285px;
 	padding-top: 30px;
 	padding-left: 85px;
 	display: grid;
@@ -270,6 +269,7 @@
 	"desc-4 desc-4";
 }
 .section-3 .container-lower-left {
+	padding-left: 285px;
 	padding-top: 30px;
 	padding-right: 85px;
 	display: grid;
@@ -288,6 +288,7 @@
 	"desc-3 desc-3";
 }
 .section-3 .container-upper-left {
+	padding-left: 285px;
 	padding-top: 100px;
 	padding-right: 85px;
 	display: grid;
@@ -305,6 +306,7 @@
 	"desc-3 desc-3";
 }
 .section-3 .container-upper-right {
+	padding-right: 285px;
 	padding-top: 100px;
 	padding-left: 85px;
 	display: grid;
