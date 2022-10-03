@@ -459,34 +459,34 @@
 .footer-content i {
 	margin-right: 7px;
 }
-.footer-content .table {
-	padding-top: 55px;
+.footer-content .container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 40px 37px 96px 20px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header-1 header-2 header-3"
+    "separator-1 separator-2 separator-3"
+    "content-1 content-2 content-3"
+    "finish-1 finish-2 finish3";
 	color: White;
-    margin-left: auto;
-    margin-right: auto;
     font-family: 'Open Sans';
     font-weight: 400;
-    width: 1200px;
 	font-size: 16px;
 	line-height: 24px;
+	text-align: center;
+	padding-top: 57px;
+	padding-left: 200px;
+	padding-right: 200px;
 }
-.footer-content .table a {
+.footer-content .container a {
 	color: White;
 }
-.footer-content .table td {
-	width: 33%;
-}
-.footer-content .table-header {
+.footer-content .container [class^="header"] {
 	font-family: Yeseva One; 
 	font-size: 21px !important;
 }
-.footer-content .table-sizer {
-	height: 11px;
-}
-.footer-content .table-sizer2 {
-	height: 7px;
-}
-.footer-content .bold-font {
+.footer-content .container .bold-font {
     font-family: 'Open Sans';
     font-weight: 700 !important;
 }
