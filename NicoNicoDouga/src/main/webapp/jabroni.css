@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*** HEADER ***/
+/*** SECTION 0 ***/
 .section-0 {
 	position: relative;
 }
@@ -8,30 +8,30 @@
 	position: absolute;
 	width: 1600px;
 }
-.header {
+.section-0 .header {
 	position: absolute;
 	width: 1600px;
 	height: 159px;
 }
-.header .buttons-panel {
-    display: flex;
+.section-0 .header .buttons-panel {
+	display: flex;
 	height: 102px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1600px;
 }
-.header .buttons-panel .logo {
-    padding-top: 41px;
+.section-0 .header .buttons-panel .logo {
+	padding-top: 41px;
 	margin-right: 214px;
 	margin-left: 179px;
 	border-top: 2px solid transparent;
 	color: White;
-    font-family: 'Yeseva One';
-    font-size: 36px;
-    line-height: 36px;
+	font-family: 'Yeseva One';
+	font-size: 36px;
+	line-height: 36px;
 }
-.header .buttons-panel .button {
-    padding-top: 41px;
+.section-0 .header .buttons-panel .button {
+	padding-top: 41px;
 	padding-right: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
@@ -39,91 +39,89 @@
 	margin-left: 15px;
 	border-top: 2px solid transparent;
 	color: White;
-    transition: 0.25s;
-    font-family: 'Gentium Book Basic';
-    font-size: 21px;
-    line-height: 36px;
+	transition: 0.25s;
+	font-family: 'Gentium Book Basic';
+	font-size: 21px;
+	line-height: 36px;
 }
-.header .buttons-panel .button:hover {
+.section-0 .header .buttons-panel .button:hover {
 	border-top: 2px solid White;
 }
-.header .buttons-panel .icon {
-    padding-top: 40px;
+.section-0 .header .buttons-panel .icon {
+	padding-top: 40px;
 	padding-right: 10px;
 	padding-bottom: 10px;
 	border-top: 2px solid transparent;
 	color: #e8b42e;
-    transition: 0.25s;
-    font-size: 21px;
-    line-height: 36px;
+	transition: 0.25s;
+	font-size: 21px;
+	line-height: 36px;
 }
-.header .buttons-panel .icon a{
+.section-0 .header .buttons-panel .icon a {
 	color: #e8b42e;
-    transition: 0.25s;
+	transition: 0.25s;
 }
-.header .buttons-panel .icon:hover,
-.header .buttons-panel .icon a:hover {
+.section-0 .header .buttons-panel .icon:hover,
+.section-0 .header .buttons-panel .icon a:hover {
 	color: White;
 }
-
-/*** SECTION 0 ***/
-.section-0-content .label {
+.section-0 .content .label {
 	text-align: center;
 	width: 1600px;
 	height: 260px;
-    color: White;
-    font-family: 'Yeseva One';
-    font-size: 90px;
-    line-height: 118px;
+	color: White;
+	font-family: 'Yeseva One';
+	font-size: 90px;
+	line-height: 118px;
 	margin-top: 50px;
 }
-.section-0-content .separator {
+.section-0 .content .separator {
 	width: 230px;
 	height: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    color: White;
+	margin-left: auto;
+	margin-right: auto;
+	color: White;
 }
-.section-0-content .content .buttons-panel {
+.section-0 .content .buttons-panel {
 	width: 700px;
 	height: 60px;
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 37px;
-    color: White;
-    display: flex;
-    align-items: center; 
-    justify-content: center;
+	color: White;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.section-0-content .content  .buttons-panel .button {
+.section-0 .content .buttons-panel .button {
 	padding-top: 18px;
 	padding-bottom: 18px;
 	padding-left: 50px;
 	padding-right: 50px;
 	margin-right: 15px;
 	margin-left: 15px;
-    font-family: 'Lato';
-    font-size: 18px;
-    line-height: 18px;
-    transition: 0.25s;
+	font-family: 'Lato';
+	font-size: 18px;
+	line-height: 18px;
+	transition: 0.25s;
 	color: White;
 }
-.section-0-content .content .buttons-panel .button#Dark {
+.section-0 .content .buttons-panel .button#Dark {
 	background: rgba(0, 0, 0, 0.6);
 	border: 1px solid #000000;
 }
-.section-0-content .content .buttons-panel .button#Light {
+.section-0 .content .buttons-panel .button#Light {
 	background: rgba(229, 208, 179, 0.3);
 	border: 1px solid #e5d0b3;
 }
-.section-0-content .content .buttons-panel .button#Dark:hover {
+.section-0 .content .buttons-panel .button#Dark:hover {
 	background: rgba(0, 0, 0, 0.8);
 }
-.section-0-content .content .buttons-panel .button#Light:hover {
+.section-0 .content .buttons-panel .button#Light:hover {
 	background: rgba(229, 208, 179, 0.5);
 }
 
-/* SECTION 1 */
+/*** SECTION 1 ***/
 .section-1 {
 	position: relative;
 }
@@ -131,40 +129,51 @@
 	position: absolute;
 	width: 1600px;
 }
-.section-1-content .block1 {
-	position: absolute;
-	height: 450px;
-	width: 450px;
-	float: left;
-	left: 291px;
-	top: 105px;
-}
-.section-1-content .block1 .auto img {
-	margin-top: 30px;
-	margin-left: 70px;
-}
-.section-1-content .block2 {
-	float: right;
-	margin-right: 240px;
-	margin-top: 55px;
-	height: 621px;
-	width: 621px;
-}
-.section-1-content .table {
+.section-1-content .container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 100px 51px 169px 359px;
+	grid-auto-columns: 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	"header photo"
+	"separator photo"
+	"content photo"
+	"finish photo";
 	font-size: 16px;
 	font-family: 'Lato';
 	line-height: 24px;
+	padding-top: 55px;
+	padding-left: 260px;
+	padding-right: 240px;
+	text-align: center;
 }
-.section-1-content .table-header {
+
+.section-1-content .container .photo {
+	grid-area: photo;
+}
+.section-1-content .container .header {
 	font-family: 'Yeseva One' !important;
 	color: #DD9A00;
 	font-size: 36px;
+	grid-area: header;
+	margin-top: 54px;
 }
-.section-1-content .table-sizer {
-	height: 15px;
+.section-1-content .container .separator {
+	grid-area: separator;
+}
+.section-1-content .container .content {
+	grid-area: content;
+}
+.section-1-content .container .finish {
+	grid-area: finish;
+}
+.section-1-content .container .finish img {
+	margin-left: 69px;
 }
 
-/* SECTION 2 */
+/*** SECTION 2 ***/
 .section-2 {
 	position: relative;
 }
@@ -173,7 +182,7 @@
 	width: 1600px;
 }
 .section-2-content .block {
-	background: rgba(0,0,0, 0.5);
+	background: rgba(0, 0, 0, 0.5);
 	height: 557px;
 	width: 570px;
 	float: right;
@@ -190,12 +199,12 @@
 }
 .section-2-content .buttons-panel {
 	width: 100%;
-    display: flex;
-    align-items: center; 
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .section-2-content .table-header {
-	font-family: Yeseva One; 
+	font-family: Yeseva	One;
 	font-size: 36px !important;
 }
 .section-2-content .table-sizer {
@@ -207,17 +216,17 @@
 	margin-right: 15px;
 }
 
-/* SECTION 3 */
+/*** SECTION 3 ***/
 .section-3 {
 	position: relative;
 }
 .section-3-content {
 	position: absolute;
 	width: 1600px;
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .section-3-content .column-right {
 	flex: 1;
@@ -230,163 +239,163 @@
 .section-3-content .container-lower-right {
 	padding-top: 30px;
 	padding-left: 85px;
-  	display: grid; 
-  	grid-template-columns: 1fr 1fr; 
-  	grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px 42px 55px; 
-  	gap: 0px 0px; 
-  	grid-template-areas: 
-    "title title"
-    "separator separator"
-    "name1 price1"
-    "desc1 desc1"
-    "special special"
-    "name2 price2"
-    "desc2 desc2"
-    "name3 price3"
-    "desc3 desc3"
-    "name4 price4"
-    "desc4 desc4"; 
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px 42px 55px;
+	gap: 0px 0px;
+	grid-template-areas: 
+	"title title"
+	"separator separator"
+	"name1 price1"
+	"desc1 desc1"
+	"special special"
+	"name2 price2"
+	"desc2 desc2"
+	"name3 price3"
+	"desc3 desc3"
+	"name4 price4"
+	"desc4 desc4";
 }
 .section-3-content .container-lower-left {
 	padding-top: 30px;
 	padding-right: 85px;
-  	display: grid; 
-  	grid-template-columns: 1fr 1fr; 
-  	grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px; 
-  	gap: 0px 0px; 
-  	grid-template-areas: 
-    "title title"
-    "separator separator"
-    "name1 price1"
-    "desc1 desc1"
-    "special special"
-    "name2 price2"
-    "desc2 desc2"
-    "name3 price3"
-    "desc3 desc3"; 
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px;
+	gap: 0px 0px;
+	grid-template-areas: 
+	"title title"
+	"separator separator"
+	"name1 price1"
+	"desc1 desc1"
+	"special special"
+	"name2 price2"
+	"desc2 desc2"
+	"name3 price3"
+	"desc3 desc3";
 }
 .section-3-content .container-upper-left {
 	padding-top: 100px;
 	padding-right: 85px;
-  	display: grid; 
-  	grid-template-columns: 1fr 1fr; 
-  	grid-template-rows: 59px 50px 42px 55px 42px 55px 42px 55px; 
-  	gap: 0px 0px; 
-  	grid-template-areas: 
-    "title title"
-    "separator separator"
-    "name1 price1"
-    "desc1 desc1"
-    "name2 price2"
-    "desc2 desc2"
-    "name3 price3"
-    "desc3 desc3"; 
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 59px 50px 42px 55px 42px 55px 42px 55px;
+	gap: 0px 0px;
+	grid-template-areas: 
+	"title title"
+	"separator separator"
+	"name1 price1"
+	"desc1 desc1"
+	"name2 price2"
+	"desc2 desc2"
+	"name3 price3"
+	"desc3 desc3";
 }
 .section-3-content .container-upper-right {
 	padding-top: 100px;
 	padding-left: 85px;
-  	display: grid; 
-  	grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 59px 50px 42px 55px 42px 55px;
-  	gap: 0px 0px; 
-  	grid-template-areas: 
-    "title title"
-    "separator separator"
-    "name1 price1"
-    "desc1 desc1"
-    "name2 price2"
-    "desc2 desc2"; 
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 59px 50px 42px 55px 42px 55px;
+	gap: 0px 0px;
+	grid-template-areas: 
+	"title title"
+	"separator separator"
+	"name1 price1"
+	"desc1 desc1"
+	"name2 price2"
+	"desc2 desc2";
 }
-.section-3-content .title { 
-	font-family: Yeseva One; 
+.section-3-content .title {
+	font-family: 'Yeseva One';
 	font-size: 36px !important;
 	color: #dd9a00;
 	width: 100%;
 	text-align: center;
-	grid-area: title; 
+	grid-area: title;
 }
-.section-3-content .separator { 
-	grid-area: separator; 
+.section-3-content .separator {
+	grid-area: separator;
 	display: flex;
 	justify-content: center;
 }
-.section-3-content .special { 
-	grid-area: special; 
+.section-3-content .special {
+	grid-area: special;
 	color: White;
 	text-align: right;
-	font-family: Lato; 
+	font-family: Lato;
 	font-size: 14px !important;
 }
-.section-3-content .name1 { 
-	grid-area: name1; 
-	font-family: Yeseva One; 
+.section-3-content .name1 {
+	grid-area: name1;
+	font-family: 'Yeseva One';
 	font-size: 21px !important;
 	color: #dd9a00;
 }
-.section-3-content .price1 { 
-	grid-area: price1; 
+.section-3-content .price1 {
+	grid-area: price1;
 	text-align: right;
-	font-family: Yeseva One; 
+	font-family: 'Yeseva One';
 	font-size: 21px !important;
 	color: #dd9a00;
 }
-.section-3-content .desc1 { 
-	grid-area: desc1; 
-	font-family: Lato; 
+.section-3-content .desc1 {
+	grid-area: desc1;
+	font-family: 'Lato';
 	font-size: 16px !important;
 }
-.section-3-content .name2 { 
-	grid-area: name2; 
-	font-family: Yeseva One; 
+.section-3-content .name2 {
+	grid-area: name2;
+	font-family: 'Yeseva One';
 	font-size: 21px !important;
 	color: #dd9a00;
 }
-.section-3-content .price2 { 
-	grid-area: price2; 
+.section-3-content .price2 {
+	grid-area: price2;
 	text-align: right;
-	font-family: Yeseva One; 
+	font-family: 'Yeseva One';
 	font-size: 21px !important;
 	color: #dd9a00;
 }
-.section-3-content .desc2 { 
-	grid-area: desc2; 
-	font-family: Lato; 
+.section-3-content .desc2 {
+	grid-area: desc2;
+	font-family: 'Lato';
 	font-size: 16px !important;
 }
-.section-3-content .name3 { 
-	grid-area: name3; 
-	font-family: Yeseva One; 
+.section-3-content .name3 {
+	grid-area: name3;
+	font-family: 'Yeseva One';
 	font-size: 21px !important;
 	color: #dd9a00;
 }
-.section-3-content .price3 { 
-	grid-area: price3; 
+.section-3-content .price3 {
+	grid-area: price3;
 	text-align: right;
-	font-family: Yeseva One; 
+	font-family: 'Yeseva One';
 	font-size: 21px !important;
 	color: #dd9a00;
 }
- .section-3-content .desc3 { 
-	grid-area: desc3; 
-	font-family: Lato; 
+ .section-3-content .desc3 {
+	grid-area: desc3;
+	font-family: 'Lato';
 	font-size: 16px !important;
 }
-.section-3-content .name4 { 
-	grid-area: name4; 
-	font-family: Yeseva One; 
+.section-3-content .name4 {
+	grid-area: name4;
+	font-family: 'Yeseva One';
 	font-size: 21px !important;
 	color: #dd9a00;
 }
-.section-3-content .price4 { 
-	grid-area: price4; 
+.section-3-content .price4 {
+	grid-area: price4;
 	text-align: right;
-	font-family: Yeseva One; 
+	font-family: 'Yeseva One';
 	font-size: 21px !important;
 	color: #dd9a00;
 }
- .section-3-content .desc4 { 
-	grid-area: desc4; 
-	font-family: Lato; 
+.section-3-content .desc4 {
+	grid-area: desc4;
+	font-family: 'Lato';
 	font-size: 16px !important;
 }
 .special img {
@@ -396,7 +405,8 @@
 	position: absolute;
 	margin-right: 10px;
 }
-/* SECTION 4 */
+
+/*** SECTION 4 ***/
 .section-4 {
 	position: relative;
 }
@@ -405,7 +415,7 @@
 	width: 1600px;
 }
 .section-4-content .block {
-	background: rgba(0,0,0, 0.8);
+	background: rgba(0, 0, 0, 0.8);
 	height: 557px;
 	width: 770px;
 	margin-top: 100px;
@@ -432,11 +442,11 @@
 	width: 100%;
 	font-size: 25px;
 	color: #dde1e0;
-    font-family: 'Gentium Book Basic';
+	font-family: 'Gentium Book Basic';
 	line-height: 45px;
 }
 .section-4-content .table-header {
-	font-family: Yeseva One; 
+	font-family: 'Yeseva One';
 	font-size: 36px !important;
 }
 .section-4-content .auto {
@@ -448,7 +458,7 @@
 	height: 16px;
 }
 
-/*** FOOTER 0 ***/
+/*** FOOTER ***/
 .footer {
 	position: relative;
 }
@@ -456,22 +466,23 @@
 	position: absolute;
 	width: 1600px;
 }
-.footer-content i {
+.footer-content	i {
 	margin-right: 7px;
 }
-.footer-content .container {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 40px 37px 96px 20px;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "header-1 header-2 header-3"
-    "separator-1 separator-2 separator-3"
-    "content-1 content-2 content-3"
-    "finish-1 finish-2 finish3";
+.footer-content .container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 40px 37px 96px 20px;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	"header-1 header-2 header-3"
+	"separator-1 separator-2 separator-3"
+	"content-1 content-2 content-3"
+	"finish-1 finish-2 finish3";
 	color: White;
-    font-family: 'Open Sans';
-    font-weight: 400;
+	font-family: 'Open Sans';
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
 	text-align: center;
@@ -483,12 +494,12 @@
 	color: White;
 }
 .footer-content .container [class^="header"] {
-	font-family: Yeseva One; 
+	font-family: 'Yeseva One';
 	font-size: 21px !important;
 }
 .footer-content .container .bold-font {
-    font-family: 'Open Sans';
-    font-weight: 700 !important;
+	font-family: 'Open Sans';
+	font-weight: 700 !important;
 }
 
 /*** BACKGROUNDS ***/
