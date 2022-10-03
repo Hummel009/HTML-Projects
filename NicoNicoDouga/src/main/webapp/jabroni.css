@@ -21,7 +21,7 @@
 	width: 1600px;
 }
 .section-0 .header .buttons-panel .logo {
-	padding-top: 41px;
+	margin-top: 41px;
 	margin-right: 214px;
 	margin-left: 179px;
 	border-top: 2px solid transparent;
@@ -33,7 +33,6 @@
 .section-0 .header .buttons-panel .button {
 	padding-top: 41px;
 	padding-right: 10px;
-	padding-bottom: 10px;
 	padding-left: 10px;
 	margin-right: 16px;
 	margin-left: 15px;
@@ -48,9 +47,9 @@
 	border-top: 2px solid White;
 }
 .section-0 .header .buttons-panel .icon {
-	padding-top: 40px;
-	padding-right: 10px;
-	padding-bottom: 10px;
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 	border-top: 2px solid transparent;
 	color: #e8b42e;
 	transition: 0.25s;
@@ -144,9 +143,9 @@
 	font-size: 16px;
 	font-family: 'Lato';
 	line-height: 24px;
-	padding-top: 55px;
-	padding-left: 260px;
-	padding-right: 240px;
+	margin-top: 55px;
+	margin-left: 260px;
+	margin-right: 240px;
 	text-align: center;
 }
 
@@ -205,7 +204,7 @@
 	font-family: 'Lato';
 	line-height: 24px;
 	text-align: center;
-	padding-top: 85px;
+	margin-top: 85px;
 }
 .section-2 .header {
 	grid-area: header; 
@@ -514,9 +513,9 @@
 	font-size: 16px;
 	line-height: 24px;
 	text-align: center;
-	padding-top: 57px;
-	padding-left: 200px;
-	padding-right: 200px;
+	margin-top: 57px;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 .footer .container a {
 	color: White;
