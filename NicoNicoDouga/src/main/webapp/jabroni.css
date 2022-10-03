@@ -190,32 +190,49 @@
 	margin-right: 215px;
 	color: White;
 }
-.section-2-content .table {
-	margin-top: 82px;
-	width: 100%;
+.section-2 .container {
+	display: grid; 
+	grid-auto-columns: 1fr; 
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-template-rows: 48px 48px 188px 100px ; 
+	gap: 0px 0px; 
+	grid-template-areas: 
+	"header header header"
+	"separator separator separator"
+	"content content content"
+	"finish-1 finish-2 finish-3"; 
 	font-size: 16px;
 	font-family: 'Lato';
 	line-height: 24px;
+	text-align: center;
+	padding-top: 85px;
 }
-.section-2-content .buttons-panel {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.section-2-content .table-header {
+.section-2 .header {
+	grid-area: header; 
 	font-family: Yeseva	One;
 	font-size: 36px !important;
 }
-.section-2-content .table-sizer {
-	height: 14px;
+.section-2 .separator {
+	grid-area: separator; 
 }
-.section-2-content .auto {
-	margin-top: 50px;
-	margin-left: 15px;
-	margin-right: 15px;
+.section-2 .content {
+	grid-area: content; 
 }
-
+.section-2 .finish-1 {
+	grid-area: finish-1; 
+}
+.section-2 .finish-2 {
+	grid-area: finish-2; 
+}
+.section-2 .finish-3 {
+	grid-area: finish-3; 
+}
+.section-2 .finish-3 img {
+	margin-right: 90px;
+}
+.section-2 .finish-1 img {
+	margin-left: 90px;
+}
 /*** SECTION 3 ***/
 .section-3 {
 	position: relative;
@@ -414,7 +431,7 @@
 	position: absolute;
 	width: 1600px;
 }
-.section-4-content .block {
+.section-4 .block {
 	background: rgba(0, 0, 0, 0.8);
 	height: 557px;
 	width: 770px;
@@ -423,12 +440,43 @@
 	margin-left: auto;
 	color: White;
 }
-.section-4-content .sigma {
+.section-4 .container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 52px 49px 246px 100px;
+	grid-auto-columns: 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	"header"
+	"separator"
+	"content"
+	"finish";
+	font-size: 25px;
+	color: #dde1e0;
+	font-family: 'Gentium Book Basic';
+	line-height: 45px;
+	text-align: center;
+	padding-top: 75px;
+}
+.section-4 .header {
+	grid-area: header;
+	font-family: 'Yeseva One';
+	font-size: 36px !important;
+}
+.section-4 .separator {
+	grid-area: separator;
+}
+.section-4 .content {
+	grid-area: content;
+}
+.section-4 .finish {
 	font-family: 'Lato';
 	font-size: 18px;
 	color: White;
+	grid-area: finish;
 }
-.section-4-content .quote {
+.section-4 .quote {
 	position: absolute;
 	font-family: 'Georgia';
 	font-size: 96px;
@@ -436,26 +484,6 @@
 	color: #a1a29c;
 	margin-left: 443px;
 	margin-top: 288px;
-}
-.section-4-content .table {
-	padding-top: 70px;
-	width: 100%;
-	font-size: 25px;
-	color: #dde1e0;
-	font-family: 'Gentium Book Basic';
-	line-height: 45px;
-}
-.section-4-content .table-header {
-	font-family: 'Yeseva One';
-	font-size: 36px !important;
-}
-.section-4-content .auto {
-	margin-top: 50px;
-	margin-left: 15px;
-	margin-right: 15px;
-}
-.section-4-content .table-sizer {
-	height: 16px;
 }
 
 /*** FOOTER ***/
