@@ -89,27 +89,29 @@
 	grid-area: separator;
 }
 .section-0 .container [class^="button"] {
-	padding-top: 19px;
 	font-family: 'Lato';
 	font-size: 18px;
 	line-height: 18px;
 	transition: 0.25s;
-	width: 226px;
 }
 .section-0 .container .button-1 {
+	padding-top: 20px;
 	grid-area: button-1;
 	margin-right: 16px;
 	margin-left: auto; 
 	line-height: 18px;
 	background: rgba(0, 0, 0, 0.56);
 	border: 1px solid #rgba(0, 0, 0, 0.8);
+	width: 228px;
 }
 .section-0 .container .button-2 {
+	padding-top: 19px;
 	grid-area: button-2;
 	padding-top: 19px;
 	margin-left: 14px;
 	background: rgba(255, 255, 255, 0.196);
 	border: 1px solid rgba(255, 255, 255, 0.7);
+	width: 226px;
 }
 .section-0 .container .button-1:hover {
 	background: rgba(0, 0, 0, 0.76);
