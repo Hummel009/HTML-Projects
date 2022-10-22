@@ -228,6 +228,60 @@
 .section-2 .finish-1 img {
 	margin-left: 90px;
 }
+
+/**SECTION 6**/
+
+.section-5 {
+	position: relative;
+}
+
+.section-5-content{
+	position:absolute;
+	width:1600px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+.section-5 .container {
+	flex:1;
+	float:right;
+	padding-top:0px;	
+	padding-left:0px;
+	padding-right:100px;
+	display: grid;
+	grid-template-columns:1fr;
+	grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px 42px 55px;
+	gap: 0px 0px;
+	grid-template-areas: 
+		"header"
+		"separator"
+		"description"
+}
+.section-5 .image {
+	padding-top: 75px;
+	padding-left:150px;
+}
+.section-5 .header{
+	font-family:'Yeseva One';
+	font-size: 48px !important;
+	color: #dd9a00;
+	width: 100%;
+	text-align: center;
+	grid-area: header;
+}
+.section-5 .separator{
+	grid-area:separator;
+	padding-top:0px;
+	display:flex;
+	justify-content: center;
+}
+.section-5  .description{
+	text-align:center;
+	grid-area: description;
+	font-family: 'Lato';
+	font-size: 20px !important;
+}
 /*** SECTION 3 ***/
 .section-3 {
 	position: relative;
@@ -479,6 +533,8 @@
 	margin-left: 443px;
 	margin-top: 288px;
 }
+
+
 
 /*** FOOTER ***/
 .footer {
