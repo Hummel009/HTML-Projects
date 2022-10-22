@@ -229,7 +229,7 @@
 	margin-left: 90px;
 }
 
-/**SECTION 6**/
+/**SECTION 5**/
 
 .section-5 {
 	position: relative;
@@ -285,6 +285,7 @@
 	font-size: 20px !important;
 }
 
+/*** USER ORDER FORM ***/
 .section-5 .container-user {
 	max-width:500px;
 	width:100%;	
@@ -292,18 +293,15 @@
 	padding-top:175px;
 	
 }
-
 .container-user form .user-details {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-
 form .user-details .input-box {
 	margin-bottom: 15px;
 	width: calc(100% / 2 - 20px);
 }
-
 form .input-box span.details {
 	display: block;
 	font-weight: bold;
@@ -311,7 +309,6 @@ form .input-box span.details {
 	color: #dd9a00;
 	margin-bottom: 5px;
 }
-
 .user-details .input-box input {
 	height: 45px;
 	width: 100%;
@@ -324,6 +321,19 @@ form .input-box span.details {
 	border-bottom-width: 2px;
 	transition: all 0.3s ease;
 }
+.input-box select {
+	height: 50px;
+	width: 110%;
+	outline: none;
+	font-size: 20px;
+	font-style: oblique;
+	border-radius: 5px;
+	padding-left: 15px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+}
+
 
 form .button {
 	height: 45px;
@@ -331,8 +341,7 @@ form .button {
 	margin: 20px 0
 
 }
-
-	form .button input {
+form .button input {
 		height: 100%;
 		width: 30%;
 		border-radius: 5px;
@@ -345,12 +354,11 @@ form .button {
 		transition: all 0.3s ease;
 		background: #dd9a00;
 	}
-
-		form .button input:hover {
+form .button input:hover {
 			/* transform: scale(0.99); */
 			background: #e7bc4d;
 		}
-
+	/*** END OF SECTION 5 ***/
 	/*** SECTION 3 ***/
 	.section-3 {
 		position: relative;

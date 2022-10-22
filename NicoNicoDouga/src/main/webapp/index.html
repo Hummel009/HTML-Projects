@@ -270,15 +270,25 @@
 								</div>
 								<div class="input-box">
 									<span class="details">Email</span>
-									<input type="text" placeholder="your email*" required />
+									<input type="email" placeholder="your email*" required />
 								</div>
 								<div class="input-box">
 									<span class="details">Data</span>
-									<input type="text" placeholder="date*" required />
+									<input type="text" placeholder="data*"
+										   onfocus="(this.type='date')"
+										   onblur="(this.type='text')">
 								</div>
 								<div class="input-box">
 									<span class="details">Party Number</span>
-									<input type="text" placeholder="party number*" required />
+									<select name="pNumbers">
+										<option value="" disabled selected hidden>party number*</option>
+										<option value="table1">table1</option>
+										<option value="table2">table2</option>
+										<option value="table3">table3</option>
+										<option value="table4">table4</option>
+										<option value="table5">table5</option>
+									</select>
+									
 								</div>
 							</div>
 							<div class="button">
