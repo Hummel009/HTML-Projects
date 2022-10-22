@@ -246,12 +246,13 @@
 .section-5 .container {
 	flex:1;
 	float:right;
-	padding-top:0px;	
+	padding-top:70px;	
 	padding-left:0px;
 	padding-right:100px;
+	padding-bottom:200px;
 	display: grid;
 	grid-template-columns:1fr;
-	grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px 42px 55px;
+	grid-template-rows: 59px 50px 42px ;
 	gap: 0px 0px;
 	grid-template-areas: 
 		"header"
@@ -259,8 +260,9 @@
 		"description"
 }
 .section-5 .image {
-	padding-top: 75px;
+	padding-top: 0px;
 	padding-left:150px;
+	padding-bottom:150px;
 }
 .section-5 .header{
 	font-family:'Yeseva One';
@@ -282,322 +284,429 @@
 	font-family: 'Lato';
 	font-size: 20px !important;
 }
-/*** SECTION 3 ***/
-.section-3 {
-	position: relative;
+
+.section-5 .container-user {
+	max-width:500px;
+	width:100%;	
+	padding-left:60px;
+	padding-top:175px;
+	
 }
-.section-3-content {
-	position: absolute;
-	width: 1600px;
+
+.container-user form .user-details {
 	display: flex;
-	align-items: center;
-	justify-content: center;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
-.section-3 .column-right {
-	flex: 1;
+
+form .user-details .input-box {
+	margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
 }
-.section-3 .column-left {
-	flex: 1;
-}
-.section-3 .container-lower-right {
-	padding-right: 285px;
-	padding-top: 30px;
-	padding-left: 85px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px 42px 55px;
-	gap: 0px 0px;
-	grid-template-areas: 
-	"header header"
-	"separator separator"
-	"name-1 price-1"
-	"desc-1 desc-1"
-	"spec spec"
-	"name-2 price-2"
-	"desc-2 desc-2"
-	"name-3 price-3"
-	"desc-3 desc-3"
-	"name-4 price-4"
-	"desc-4 desc-4";
-}
-.section-3 .container-lower-left {
-	padding-left: 285px;
-	padding-top: 30px;
-	padding-right: 85px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px;
-	gap: 0px 0px;
-	grid-template-areas: 
-	"header header"
-	"separator separator"
-	"name-1 price-1"
-	"desc-1 desc-1"
-	"spec spec"
-	"name-2 price-2"
-	"desc-2 desc-2"
-	"name-3 price-3"
-	"desc-3 desc-3";
-}
-.section-3 .container-upper-left {
-	padding-left: 285px;
-	padding-top: 100px;
-	padding-right: 85px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 59px 50px 42px 55px 42px 55px 42px 55px;
-	gap: 0px 0px;
-	grid-template-areas: 
-	"header header"
-	"separator separator"
-	"name-1 price-1"
-	"desc-1 desc-1"
-	"name-2 price-2"
-	"desc-2 desc-2"
-	"name-3 price-3"
-	"desc-3 desc-3";
-}
-.section-3 .container-upper-right {
-	padding-right: 285px;
-	padding-top: 100px;
-	padding-left: 85px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 59px 50px 42px 55px 42px 55px;
-	gap: 0px 0px;
-	grid-template-areas: 
-	"header header"
-	"separator separator"
-	"name-1 price-1"
-	"desc-1 desc-1"
-	"name-2 price-2"
-	"desc-2 desc-2";
-}
-.section-3 .header {
-	font-family: 'Yeseva One';
-	font-size: 36px !important;
+
+form .input-box span.details {
+	display: block;
+	font-weight: bold;
+	font-family: 'Lato';
 	color: #dd9a00;
+	margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+	height: 45px;
 	width: 100%;
-	text-align: center;
-	grid-area: header;
-}
-.section-3 .separator {
-	grid-area: separator;
-	display: flex;
-	justify-content: center;
-}
-.section-3 .spec {
-	grid-area: spec;
-	color: White;
-	text-align: right;
-	font-family: Lato;
-	font-size: 14px !important;
-}
-.section-3 .name-1 {
-	grid-area: name-1;
-	font-family: 'Yeseva One';
-	font-size: 21px !important;
-	color: #dd9a00;
-}
-.section-3 .price-1 {
-	grid-area: price-1;
-	text-align: right;
-	font-family: 'Yeseva One';
-	font-size: 21px !important;
-	color: #dd9a00;
-}
-.section-3 .desc-1 {
-	grid-area: desc-1;
-	font-family: 'Lato';
-	font-size: 16px !important;
-}
-.section-3 .name-2 {
-	grid-area: name-2;
-	font-family: 'Yeseva One';
-	font-size: 21px !important;
-	color: #dd9a00;
-}
-.section-3 .price-2 {
-	grid-area: price-2;
-	text-align: right;
-	font-family: 'Yeseva One';
-	font-size: 21px !important;
-	color: #dd9a00;
-}
-.section-3 .desc-2 {
-	grid-area: desc-2;
-	font-family: 'Lato';
-	font-size: 16px !important;
-}
-.section-3 .name-3 {
-	grid-area: name-3;
-	font-family: 'Yeseva One';
-	font-size: 21px !important;
-	color: #dd9a00;
-}
-.section-3 .price-3 {
-	grid-area: price-3;
-	text-align: right;
-	font-family: 'Yeseva One';
-	font-size: 21px !important;
-	color: #dd9a00;
-}
-.section-3 .desc-3 {
-	grid-area: desc-3;
-	font-family: 'Lato';
-	font-size: 16px !important;
-}
-.section-3 .name-4 {
-	grid-area: name-4;
-	font-family: 'Yeseva One';
-	font-size: 21px !important;
-	color: #dd9a00;
-}
-.section-3 .price-4 {
-	grid-area: price-4;
-	text-align: right;
-	font-family: 'Yeseva One';
-	font-size: 21px !important;
-	color: #dd9a00;
-}
-.section-3 .desc-4 {
-	grid-area: desc-4;
-	font-family: 'Lato';
-	font-size: 16px !important;
-}
-.spec img {
-	position: relative;
-}
-.spec span {
-	position: absolute;
-	margin-right: 10px;
+	outline: none;
+	font-size: 20px;
+	font-style:	oblique;
+	border-radius: 5px;
+	padding-left: 15px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
 }
 
-/*** SECTION 4 ***/
-.section-4 {
-	position: relative;
+form .button {
+	height: 45px;
+	text-align:center;
+	margin: 20px 0
+
 }
-.section-4-content {
-	position: absolute;
-	width: 1600px;
-}
-.section-4 .container {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 52px 49px 246px 135px;
-	grid-auto-columns: 1fr;
-	gap: 0px 0px;
-	grid-auto-flow: row;
-	grid-template-areas:
-	"header"
-	"separator"
-	"content"
-	"finish";
-	font-size: 25px;
-	color: #dde1e0;
-	font-family: 'Gentium Book Basic';
-	line-height: 45px;
-	text-align: center;
-	padding-top: 75px;
-	background: rgba(0, 0, 0, 0.8);
-	width: 770px;
-	margin-top: 100px;
-	margin-right: auto;
-	margin-left: auto;
-	color: White;
-}
-.section-4 .header {
-	grid-area: header;
-	font-family: 'Yeseva One';
-	font-size: 36px !important;
-}
-.section-4 .separator {
-	grid-area: separator;
-}
-.section-4 .content {
-	grid-area: content;
-}
-.section-4 .finish {
-	font-family: 'Lato';
-	font-size: 18px;
-	color: White;
-	grid-area: finish;
-}
-.section-4 .quote {
-	position: absolute;
-	font-family: 'Georgia';
-	font-size: 96px;
-	line-height: 40px !important;
-	color: #a1a29c;
-	margin-left: 443px;
-	margin-top: 288px;
-}
+
+	form .button input {
+		height: 100%;
+		width: 30%;
+		border-radius: 5px;
+		border: none;
+		color: #fff;
+		font-size: 18px;
+		font-weight: 500;
+		letter-spacing: 1px;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		background: #dd9a00;
+	}
+
+		form .button input:hover {
+			/* transform: scale(0.99); */
+			background: #e7bc4d;
+		}
+
+	/*** SECTION 3 ***/
+	.section-3 {
+		position: relative;
+	}
+
+	.section-3-content {
+		position: absolute;
+		width: 1600px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.section-3 .column-right {
+		flex: 1;
+	}
+
+	.section-3 .column-left {
+		flex: 1;
+	}
+
+	.section-3 .container-lower-right {
+		padding-right: 285px;
+		padding-top: 30px;
+		padding-left: 85px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px 42px 55px;
+		gap: 0px 0px;
+		grid-template-areas:
+			"header header"
+			"separator separator"
+			"name-1 price-1"
+			"desc-1 desc-1"
+			"spec spec"
+			"name-2 price-2"
+			"desc-2 desc-2"
+			"name-3 price-3"
+			"desc-3 desc-3"
+			"name-4 price-4"
+			"desc-4 desc-4";
+	}
+
+	.section-3 .container-lower-left {
+		padding-left: 285px;
+		padding-top: 30px;
+		padding-right: 85px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px;
+		gap: 0px 0px;
+		grid-template-areas:
+			"header header"
+			"separator separator"
+			"name-1 price-1"
+			"desc-1 desc-1"
+			"spec spec"
+			"name-2 price-2"
+			"desc-2 desc-2"
+			"name-3 price-3"
+			"desc-3 desc-3";
+	}
+
+	.section-3 .container-upper-left {
+		padding-left: 285px;
+		padding-top: 100px;
+		padding-right: 85px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 59px 50px 42px 55px 42px 55px 42px 55px;
+		gap: 0px 0px;
+		grid-template-areas:
+			"header header"
+			"separator separator"
+			"name-1 price-1"
+			"desc-1 desc-1"
+			"name-2 price-2"
+			"desc-2 desc-2"
+			"name-3 price-3"
+			"desc-3 desc-3";
+	}
+
+	.section-3 .container-upper-right {
+		padding-right: 285px;
+		padding-top: 100px;
+		padding-left: 85px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 59px 50px 42px 55px 42px 55px;
+		gap: 0px 0px;
+		grid-template-areas:
+			"header header"
+			"separator separator"
+			"name-1 price-1"
+			"desc-1 desc-1"
+			"name-2 price-2"
+			"desc-2 desc-2";
+	}
+
+	.section-3 .header {
+		font-family: 'Yeseva One';
+		font-size: 36px !important;
+		color: #dd9a00;
+		width: 100%;
+		text-align: center;
+		grid-area: header;
+	}
+
+	.section-3 .separator {
+		grid-area: separator;
+		display: flex;
+		justify-content: center;
+	}
+
+	.section-3 .spec {
+		grid-area: spec;
+		color: White;
+		text-align: right;
+		font-family: Lato;
+		font-size: 14px !important;
+	}
+
+	.section-3 .name-1 {
+		grid-area: name-1;
+		font-family: 'Yeseva One';
+		font-size: 21px !important;
+		color: #dd9a00;
+	}
+
+	.section-3 .price-1 {
+		grid-area: price-1;
+		text-align: right;
+		font-family: 'Yeseva One';
+		font-size: 21px !important;
+		color: #dd9a00;
+	}
+
+	.section-3 .desc-1 {
+		grid-area: desc-1;
+		font-family: 'Lato';
+		font-size: 16px !important;
+	}
+
+	.section-3 .name-2 {
+		grid-area: name-2;
+		font-family: 'Yeseva One';
+		font-size: 21px !important;
+		color: #dd9a00;
+	}
+
+	.section-3 .price-2 {
+		grid-area: price-2;
+		text-align: right;
+		font-family: 'Yeseva One';
+		font-size: 21px !important;
+		color: #dd9a00;
+	}
+
+	.section-3 .desc-2 {
+		grid-area: desc-2;
+		font-family: 'Lato';
+		font-size: 16px !important;
+	}
+
+	.section-3 .name-3 {
+		grid-area: name-3;
+		font-family: 'Yeseva One';
+		font-size: 21px !important;
+		color: #dd9a00;
+	}
+
+	.section-3 .price-3 {
+		grid-area: price-3;
+		text-align: right;
+		font-family: 'Yeseva One';
+		font-size: 21px !important;
+		color: #dd9a00;
+	}
+
+	.section-3 .desc-3 {
+		grid-area: desc-3;
+		font-family: 'Lato';
+		font-size: 16px !important;
+	}
+
+	.section-3 .name-4 {
+		grid-area: name-4;
+		font-family: 'Yeseva One';
+		font-size: 21px !important;
+		color: #dd9a00;
+	}
+
+	.section-3 .price-4 {
+		grid-area: price-4;
+		text-align: right;
+		font-family: 'Yeseva One';
+		font-size: 21px !important;
+		color: #dd9a00;
+	}
+
+	.section-3 .desc-4 {
+		grid-area: desc-4;
+		font-family: 'Lato';
+		font-size: 16px !important;
+	}
+
+	.spec img {
+		position: relative;
+	}
+
+	.spec span {
+		position: absolute;
+		margin-right: 10px;
+	}
+
+	/*** SECTION 4 ***/
+	.section-4 {
+		position: relative;
+	}
+
+	.section-4-content {
+		position: absolute;
+		width: 1600px;
+	}
+
+	.section-4 .container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 52px 49px 246px 135px;
+		grid-auto-columns: 1fr;
+		gap: 0px 0px;
+		grid-auto-flow: row;
+		grid-template-areas:
+			"header"
+			"separator"
+			"content"
+			"finish";
+		font-size: 25px;
+		color: #dde1e0;
+		font-family: 'Gentium Book Basic';
+		line-height: 45px;
+		text-align: center;
+		padding-top: 75px;
+		background: rgba(0, 0, 0, 0.8);
+		width: 770px;
+		margin-top: 100px;
+		margin-right: auto;
+		margin-left: auto;
+		color: White;
+	}
+
+	.section-4 .header {
+		grid-area: header;
+		font-family: 'Yeseva One';
+		font-size: 36px !important;
+	}
+
+	.section-4 .separator {
+		grid-area: separator;
+	}
+
+	.section-4 .content {
+		grid-area: content;
+	}
+
+	.section-4 .finish {
+		font-family: 'Lato';
+		font-size: 18px;
+		color: White;
+		grid-area: finish;
+	}
+
+	.section-4 .quote {
+		position: absolute;
+		font-family: 'Georgia';
+		font-size: 96px;
+		line-height: 40px !important;
+		color: #a1a29c;
+		margin-left: 443px;
+		margin-top: 288px;
+	}
 
 
 
-/*** FOOTER ***/
-.footer {
-	position: relative;
-}
-.footer-content {
-	position: absolute;
-	width: 1600px;
-}
-.footer	i {
-	margin-right: 7px;
-}
-.footer .container {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 40px 37px 96px 20px;
-	gap: 0px 0px;
-	grid-auto-flow: row;
-	grid-template-areas:
-	"header-1 header-2 header-3"
-	"separator-1 separator-2 separator-3"
-	"content-1 content-2 content-3"
-	"finish-1 finish-2 finish3";
-	color: White;
-	font-family: 'Open Sans';
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
-	text-align: center;
-	margin-top: 57px;
-	margin-left: 200px;
-	margin-right: 200px;
-}
-.footer .container a {
-	color: White;
-}
-.footer .container [class^="header"] {
-	font-family: 'Yeseva One';
-	font-size: 21px !important;
-}
-.footer .container .bold-font {
-	font-family: 'Open Sans';
-	font-weight: 700 !important;
-}
+	/*** FOOTER ***/
+	.footer {
+		position: relative;
+	}
 
-/*** BACKGROUNDS ***/
-.section-0>img{
-	height: 750px;
-	object-fit: cover;
-	object-position: 100% 0;
-}
-.section-2>img {
-	height: 758px;
-	object-fit: cover;
-	object-position: 100% 0;
-}
-.section-4>img {
-	height: 758px;
-	object-fit: cover;
-	object-position: 22% 78%;
-}
-.footer>img {
-	height: 320px;
-	object-fit: cover;
-	object-position: 100% 0;
-}
+	.footer-content {
+		position: absolute;
+		width: 1600px;
+	}
+
+	.footer i {
+		margin-right: 7px;
+	}
+
+	.footer .container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 40px 37px 96px 20px;
+		gap: 0px 0px;
+		grid-auto-flow: row;
+		grid-template-areas:
+			"header-1 header-2 header-3"
+			"separator-1 separator-2 separator-3"
+			"content-1 content-2 content-3"
+			"finish-1 finish-2 finish3";
+		color: White;
+		font-family: 'Open Sans';
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+		margin-top: 57px;
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+		.footer .container a {
+			color: White;
+		}
+
+		.footer .container [class^="header"] {
+			font-family: 'Yeseva One';
+			font-size: 21px !important;
+		}
+
+		.footer .container .bold-font {
+			font-family: 'Open Sans';
+			font-weight: 700 !important;
+		}
+
+	/*** BACKGROUNDS ***/
+	.section-0 > img {
+		height: 750px;
+		object-fit: cover;
+		object-position: 100% 0;
+	}
+
+	.section-2 > img {
+		height: 758px;
+		object-fit: cover;
+		object-position: 100% 0;
+	}
+
+	.section-4 > img {
+		height: 758px;
+		object-fit: cover;
+		object-position: 22% 78%;
+	}
+
+	.footer > img {
+		height: 320px;
+		object-fit: cover;
+		object-position: 100% 0;
+	}
