@@ -46,6 +46,10 @@
 .section-0 .header .buttons-panel .button:hover {
 	border-top: 2px solid White;
 }
+.section-0 .header .buttons-panel .button a {
+	color: inherit !important;
+	text-decoration: inherit !important;
+}
 .section-0 .header .buttons-panel .icon {
 	margin-top: 40px;
 	margin-right: 10px;
@@ -112,6 +116,11 @@
 	background: rgba(255, 255, 255, 0.196);
 	border: 1px solid rgba(255, 255, 255, 0.7);
 	width: 226px;
+}
+.section-0 .container .button-1 a,
+.section-0 .container .button-2 a {
+	color: inherit !important;
+	text-decoration: inherit !important;
 }
 .section-0 .container .button-1:hover {
 	background: rgba(0, 0, 0, 0.76);

@@ -26,6 +26,11 @@
 			href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap"
 			rel="stylesheet"
 		/>
+		<style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 	</head>
 	<body style="margin: auto; padding: 0; width: 1600px">
 		<div class="section-0" style="height: 750px">
@@ -33,12 +38,12 @@
 				<div class="header">
 					<div class="buttons-panel">
 						<div class="logo">LAMBDA</div>
-						<div class="button">Home</div>
-						<div class="button">About</div>
-						<div class="button">Igredients</div>
-						<div class="button">Menu</div>
-						<div class="button">Reviews</div>
-						<div class="button">Reservations</div>
+						<div class="button" id="btn1"><a href="#section0">Home</a></div>
+						<div class="button" id="btn2"><a href="#section1">About</a></div>
+						<div class="button" id="btn3"><a href="#section2">Igredients</a></div>
+						<div class="button" id="btn4"><a href="#section3">Menu</a></div>
+						<div class="button" id="btn5"><a href="#section4">Reviews</a></div>
+						<div class="button" id="btn6"><a href="#section5">Reservations</a></div>
 						<div class="icon">
 							<a href="https://github.com/Hummel009">
 								<i class="fa-brands fa-twitter"></i>
@@ -62,13 +67,13 @@
 					<div class="separator">
 						<img src="s-0-separator.png" width="232px" height="43px" alt="" />
 					</div>
-					<div class="button-1">BOOK A TABLE</div>
-					<div class="button-2">SEE THE MENU</div>
+					<div class="button-1"><a href="#section5">BOOK A TABLE</a></div>
+					<div class="button-2"><a href="#section3">SEE THE MENU</a></div>
 				</div>
 			</div>
 			<img src="s-0-background.png" width="100%" height="auto" alt="" />
 		</div>
-		<div class="section-1" style="height: 710px">
+		<div class="section-1" id="section1" style="height: 710px">
 			<div class="section-1-content">
 				<div class="container">
 					<div class="photo">
@@ -93,7 +98,7 @@
 			</div>
 			<img src="s-1-background.png" width="100%" height="auto" alt="" />
 		</div>
-		<div class="section-2" style="height: 758px">
+		<div class="section-2" id="section2" style="height: 758px">
 			<div class="section-2-content">
 				<div class="container">
 					<div class="header">Fine ingredients</div>
@@ -121,7 +126,7 @@
 			</div>
 			<img src="s-2-background.png" width="100%" height="auto" alt="" />
 		</div>
-		<div class="section-3" style="height: 994px">
+		<div class="section-3" id="section3" style="height: 994px">
 			<div class="section-3-content">
 				<div class="column-left">
 					<div class="container-upper-left">
@@ -216,7 +221,7 @@
 			</div>
 			<img src="s-3-background.png" width="100%" height="auto" alt="" />
 		</div>
-		<div class="section-4" style="height: 758px">
+		<div class="section-4" id="section4" style="height: 758px">
 			<div class="section-4-content">
 				<div class="quote">“</div>
 				<div class="container">
@@ -236,7 +241,7 @@
 			</div>
 			<img src="s-4-background.png" width="100%" height="auto" alt="" />
 		</div>
-		<div class="section-5" style="height: 710px">
+		<div class="section-5" id="section5" style="height: 710px">
 			<div class="section-5-content">
 				<div class="container">
 					<div class="image1">
@@ -387,5 +392,6 @@
 			</div>
 			<img src="footer.png" width="100%" height="auto" alt="" />
 		</div>
+    <script src=".\amogus.js"></script>
 	</body>
 </html>
