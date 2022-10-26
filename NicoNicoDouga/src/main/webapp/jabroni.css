@@ -335,7 +335,7 @@
 	justify-content: center;
 }
 .section-3 .spec {
-	grid-area: spec;
+	grid-area: spec / name-2 / price-2 / desc-2;
 	color: White;
 	text-align: right;
 	font-family: Lato;
@@ -413,15 +413,16 @@
 	font-family: 'Lato';
 	font-size: 16px !important;
 }
-.spec img {
-	position: relative;
+.section-3 .spec {
+    height: 96px;
+    background-image: url(s-3-tag.png);
+    background-size: cover;
 }
-
-.spec span {
-	position: absolute;
-	margin-right: 10px;
+.section-3 [class^="desc"] {
+    height: 1px;
+    background-image: url(s-3-line.png);
+    background-size: cover;
 }
-
 /*** SECTION 4 ***/
 .section-4 {
 	position: relative;
