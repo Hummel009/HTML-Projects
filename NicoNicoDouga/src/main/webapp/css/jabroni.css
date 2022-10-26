@@ -424,12 +424,12 @@
 }
 .section-3 .spec {
     height: 96px;
-    background-image: url(s-3-tag.png);
+    background-image: url(./sus/s-3-tag.png);
     background-size: cover;
 }
 .section-3 [class^="desc"] {
     height: 1px;
-    background-image: url(s-3-line.png);
+    background-image: url(./sus/s-3-line.png);
     background-size: cover;
 }
 /*** SECTION 4 ***/
