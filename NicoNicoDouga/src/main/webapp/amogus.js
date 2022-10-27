@@ -40,24 +40,3 @@ document.querySelector('#btn6').addEventListener('click', () => {
     }
     buttons[5].style.borderTop = '2px solid white';
 })
-document.querySelector('#lastbtn').addEventListener('click', () => {
-    var data1 = document.querySelector('#inp1').value;
-    var data2 = document.querySelector('#inp2').value;
-    var data3 = document.querySelector('#inp3').value;
-    var data4 = document.querySelector('#inp4').value;
-    let colorArray = document.getElementsByClassName("inp");
-    var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/
-    if (data1.length < 2 || !data2.match(pattern) || data3.length == 0 || data4.length == 0) {
-        for (i = 0; i < colorArray.length; i++) {
-            colorArray[i].style.backgroundColor = "#FF0000";
-            colorArray[i].style.background = 'rgba(255,0,0,0.3)';
-            document.getElementById("dial").innerHTML = "   Missing or invalid value!";
-        }
-    } else {
-        for (i = 0; i < colorArray.length; i++) {
-            colorArray[i].style.backgroundColor = "rgb(255,255,255)";
-            colorArray[i].value = '';
-            document.getElementById("dial").innerHTML = "   Booking completed, check your email!";
-        }
-    }
-})

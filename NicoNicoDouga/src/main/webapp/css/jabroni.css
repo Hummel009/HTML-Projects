@@ -16,10 +16,12 @@
 	border: 1px solid rgba(255, 255, 255, 0.7);
 	width: 226px;
 }
+
 .section-0 .buttonBack a {
 	color: inherit !important;
 	text-decoration: inherit !important;
 }
+
 .section-0 .buttonBack:hover {
 	background: rgba(255, 255, 255, 0.396);
 }
@@ -28,15 +30,18 @@
 .section-0 {
 	position: relative;
 }
+
 .section-0-content {
 	position: absolute;
 	width: 1600px;
 }
+
 .section-0 .header {
 	position: absolute;
 	width: 1600px;
 	height: 159px;
 }
+
 .section-0 .header .buttons-panel {
 	display: flex;
 	height: 102px;
@@ -44,6 +49,7 @@
 	margin-right: auto;
 	width: 1600px;
 }
+
 .section-0 .header .buttons-panel .logo {
 	margin-top: 41px;
 	margin-right: 214px;
@@ -54,6 +60,7 @@
 	font-size: 36px;
 	line-height: 36px;
 }
+
 .section-0 .header .buttons-panel .button {
 	padding-top: 41px;
 	padding-right: 10px;
@@ -67,13 +74,16 @@
 	font-size: 21px;
 	line-height: 36px;
 }
+
 .section-0 .header .buttons-panel .button:hover {
 	border-top: 2px solid White;
 }
+
 .section-0 .header .buttons-panel .button a {
 	color: inherit !important;
 	text-decoration: inherit !important;
 }
+
 .section-0 .header .buttons-panel .icon {
 	margin-top: 40px;
 	margin-right: 10px;
@@ -84,14 +94,17 @@
 	font-size: 21px;
 	line-height: 36px;
 }
+
 .section-0 .header .buttons-panel .icon a {
 	color: #e8b42e;
 	transition: 0.25s;
 }
+
 .section-0 .header .buttons-panel .icon:hover,
 .section-0 .header .buttons-panel .icon a:hover {
 	color: White;
 }
+
 .section-0 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -99,39 +112,44 @@
 	grid-auto-columns: 1fr;
 	gap: 0px 0px;
 	grid-auto-flow: row;
-	grid-template-areas: 
-	"title title"
-	"separator separator"
-	"button-1 button-2";
+	grid-template-areas:
+		"title title"
+		"separator separator"
+		"button-1 button-2";
 	text-align: center;
 	color: White;
 	padding-top: 50px;
 }
+
 .section-0 .container .title {
 	grid-area: title;
 	font-family: 'Yeseva One';
 	font-size: 90px;
 	line-height: 118px;
 }
+
 .section-0 .container .separator {
 	grid-area: separator;
 }
+
 .section-0 .container [class^="button"] {
 	font-family: 'Lato';
 	font-size: 18px;
 	line-height: 18px;
 	transition: 0.25s;
 }
+
 .section-0 .container .button-1 {
 	padding-top: 20px;
 	grid-area: button-1;
 	margin-right: 16px;
-	margin-left: auto; 
+	margin-left: auto;
 	line-height: 18px;
 	background: rgba(0, 0, 0, 0.56);
 	border: 1px solid #rgba(0, 0, 0, 0.8);
 	width: 228px;
 }
+
 .section-0 .container .button-2 {
 	padding-top: 19px;
 	grid-area: button-2;
@@ -141,14 +159,17 @@
 	border: 1px solid rgba(255, 255, 255, 0.7);
 	width: 226px;
 }
+
 .section-0 .container .button-1 a,
 .section-0 .container .button-2 a {
 	color: inherit !important;
 	text-decoration: inherit !important;
 }
+
 .section-0 .container .button-1:hover {
 	background: rgba(0, 0, 0, 0.76);
 }
+
 .section-0 .container .button-2:hover {
 	background: rgba(255, 255, 255, 0.396);
 }
@@ -157,10 +178,12 @@
 .section-1 {
 	position: relative;
 }
+
 .section-1-content {
 	position: absolute;
 	width: 1600px;
 }
+
 .section-1 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -168,11 +191,11 @@
 	grid-auto-columns: 1fr;
 	gap: 0px 0px;
 	grid-auto-flow: row;
-	grid-template-areas: 
-	"header photo"
-	"separator photo"
-	"content photo"
-	"finish photo";
+	grid-template-areas:
+		"header photo"
+		"separator photo"
+		"content photo"
+		"finish photo";
 	font-size: 16px;
 	font-family: 'Lato';
 	line-height: 24px;
@@ -181,9 +204,11 @@
 	margin-right: 240px;
 	text-align: center;
 }
+
 .section-1 .container .photo {
 	grid-area: photo;
 }
+
 .section-1 .container .header {
 	font-family: 'Yeseva One' !important;
 	color: #DD9A00;
@@ -191,15 +216,19 @@
 	grid-area: header;
 	margin-top: 54px;
 }
+
 .section-1 .container .separator {
 	grid-area: separator;
 }
+
 .section-1 .container .content {
 	grid-area: content;
 }
+
 .section-1 .container .finish {
 	grid-area: finish;
 }
+
 .section-1 .container .finish img {
 	margin-left: 69px;
 }
@@ -208,21 +237,23 @@
 .section-2 {
 	position: relative;
 }
+
 .section-2-content {
 	position: absolute;
 	width: 1600px;
 }
+
 .section-2 .container {
-	display: grid; 
-	grid-auto-columns: 1fr; 
-	grid-template-columns: 1fr 1fr 1fr; 
-	grid-template-rows: 48px 48px 188px 188px; 
-	gap: 0px 0px; 
-	grid-template-areas: 
-	"header header header"
-	"separator separator separator"
-	"content content content"
-	"finish-1 finish-2 finish-3"; 
+	display: grid;
+	grid-auto-columns: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 48px 48px 188px 188px;
+	gap: 0px 0px;
+	grid-template-areas:
+		"header header header"
+		"separator separator separator"
+		"content content content"
+		"finish-1 finish-2 finish-3";
 	font-size: 16px;
 	font-family: 'Lato';
 	line-height: 24px;
@@ -235,29 +266,37 @@
 	background: rgba(0, 0, 0, 0.5);
 	color: White;
 }
+
 .section-2 .header {
-	grid-area: header; 
-	font-family: Yeseva	One;
+	grid-area: header;
+	font-family: Yeseva One;
 	font-size: 36px !important;
 }
+
 .section-2 .separator {
-	grid-area: separator; 
+	grid-area: separator;
 }
+
 .section-2 .content {
-	grid-area: content; 
+	grid-area: content;
 }
+
 .section-2 .finish-1 {
-	grid-area: finish-1; 
+	grid-area: finish-1;
 }
+
 .section-2 .finish-2 {
-	grid-area: finish-2; 
+	grid-area: finish-2;
 }
+
 .section-2 .finish-3 {
-	grid-area: finish-3; 
+	grid-area: finish-3;
 }
+
 .section-2 .finish-3 img {
 	margin-right: 90px;
 }
+
 .section-2 .finish-1 img {
 	margin-left: 90px;
 }
@@ -266,6 +305,7 @@
 .section-3 {
 	position: relative;
 }
+
 .section-3-content {
 	position: absolute;
 	width: 1600px;
@@ -274,12 +314,15 @@
 	justify-content: center;
 	flex-wrap: wrap;
 }
+
 .section-3 .column-right {
 	flex: 1;
 }
+
 .section-3 .column-left {
 	flex: 1;
 }
+
 .section-3 .container-lower-right {
 	padding-right: 285px;
 	padding-top: 30px;
@@ -288,19 +331,20 @@
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px 42px 55px;
 	gap: 0px 0px;
-	grid-template-areas: 
-	"header header"
-	"separator separator"
-	"name-1 price-1"
-	"desc-1 desc-1"
-	"spec spec"
-	"name-2 price-2"
-	"desc-2 desc-2"
-	"name-3 price-3"
-	"desc-3 desc-3"
-	"name-4 price-4"
-	"desc-4 desc-4";
+	grid-template-areas:
+		"header header"
+		"separator separator"
+		"name-1 price-1"
+		"desc-1 desc-1"
+		"spec spec"
+		"name-2 price-2"
+		"desc-2 desc-2"
+		"name-3 price-3"
+		"desc-3 desc-3"
+		"name-4 price-4"
+		"desc-4 desc-4";
 }
+
 .section-3 .container-lower-left {
 	padding-left: 285px;
 	padding-top: 30px;
@@ -309,17 +353,18 @@
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px;
 	gap: 0px 0px;
-	grid-template-areas: 
-	"header header"
-	"separator separator"
-	"name-1 price-1"
-	"desc-1 desc-1"
-	"spec spec"
-	"name-2 price-2"
-	"desc-2 desc-2"
-	"name-3 price-3"
-	"desc-3 desc-3";
+	grid-template-areas:
+		"header header"
+		"separator separator"
+		"name-1 price-1"
+		"desc-1 desc-1"
+		"spec spec"
+		"name-2 price-2"
+		"desc-2 desc-2"
+		"name-3 price-3"
+		"desc-3 desc-3";
 }
+
 .section-3 .container-upper-left {
 	padding-left: 285px;
 	padding-top: 100px;
@@ -328,16 +373,17 @@
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 59px 50px 42px 55px 42px 55px 42px 55px;
 	gap: 0px 0px;
-	grid-template-areas: 
-	"header header"
-	"separator separator"
-	"name-1 price-1"
-	"desc-1 desc-1"
-	"name-2 price-2"
-	"desc-2 desc-2"
-	"name-3 price-3"
-	"desc-3 desc-3";
+	grid-template-areas:
+		"header header"
+		"separator separator"
+		"name-1 price-1"
+		"desc-1 desc-1"
+		"name-2 price-2"
+		"desc-2 desc-2"
+		"name-3 price-3"
+		"desc-3 desc-3";
 }
+
 .section-3 .container-upper-right {
 	padding-right: 285px;
 	padding-top: 100px;
@@ -346,14 +392,15 @@
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 59px 50px 42px 55px 42px 55px;
 	gap: 0px 0px;
-	grid-template-areas: 
-	"header header"
-	"separator separator"
-	"name-1 price-1"
-	"desc-1 desc-1"
-	"name-2 price-2"
-	"desc-2 desc-2";
+	grid-template-areas:
+		"header header"
+		"separator separator"
+		"name-1 price-1"
+		"desc-1 desc-1"
+		"name-2 price-2"
+		"desc-2 desc-2";
 }
+
 .section-3 .header {
 	font-family: 'Yeseva One';
 	font-size: 36px !important;
@@ -362,11 +409,13 @@
 	text-align: center;
 	grid-area: header;
 }
+
 .section-3 .separator {
 	grid-area: separator;
 	display: flex;
 	justify-content: center;
 }
+
 .section-3 .spec {
 	grid-area: spec / name-2 / price-2 / desc-2;
 	color: White;
@@ -374,12 +423,14 @@
 	font-family: Lato;
 	font-size: 14px !important;
 }
+
 .section-3 .name-1 {
 	grid-area: name-1;
 	font-family: 'Yeseva One';
 	font-size: 21px !important;
 	color: #dd9a00;
 }
+
 .section-3 .price-1 {
 	grid-area: price-1;
 	text-align: right;
@@ -387,17 +438,20 @@
 	font-size: 21px !important;
 	color: #dd9a00;
 }
+
 .section-3 .desc-1 {
 	grid-area: desc-1;
 	font-family: 'Lato';
 	font-size: 16px !important;
 }
+
 .section-3 .name-2 {
 	grid-area: name-2;
 	font-family: 'Yeseva One';
 	font-size: 21px !important;
 	color: #dd9a00;
 }
+
 .section-3 .price-2 {
 	grid-area: price-2;
 	text-align: right;
@@ -405,17 +459,20 @@
 	font-size: 21px !important;
 	color: #dd9a00;
 }
+
 .section-3 .desc-2 {
 	grid-area: desc-2;
 	font-family: 'Lato';
 	font-size: 16px !important;
 }
+
 .section-3 .name-3 {
 	grid-area: name-3;
 	font-family: 'Yeseva One';
 	font-size: 21px !important;
 	color: #dd9a00;
 }
+
 .section-3 .price-3 {
 	grid-area: price-3;
 	text-align: right;
@@ -423,17 +480,20 @@
 	font-size: 21px !important;
 	color: #dd9a00;
 }
+
 .section-3 .desc-3 {
 	grid-area: desc-3;
 	font-family: 'Lato';
 	font-size: 16px !important;
 }
+
 .section-3 .name-4 {
 	grid-area: name-4;
 	font-family: 'Yeseva One';
 	font-size: 21px !important;
 	color: #dd9a00;
 }
+
 .section-3 .price-4 {
 	grid-area: price-4;
 	text-align: right;
@@ -441,29 +501,35 @@
 	font-size: 21px !important;
 	color: #dd9a00;
 }
+
 .section-3 .desc-4 {
 	grid-area: desc-4;
 	font-family: 'Lato';
 	font-size: 16px !important;
 }
+
 .section-3 .spec {
-    height: 96px;
-    background-image: url(./sus/s-3-tag.png);
-    background-size: cover;
+	height: 96px;
+	background-image: url(./sus/s-3-tag.png);
+	background-size: cover;
 }
+
 .section-3 [class^="desc"] {
-    height: 1px;
-    background-image: url(./sus/s-3-line.png);
-    background-size: cover;
+	height: 1px;
+	background-image: url(./sus/s-3-line.png);
+	background-size: cover;
 }
+
 /*** SECTION 4 ***/
 .section-4 {
 	position: relative;
 }
+
 .section-4-content {
 	position: absolute;
 	width: 1600px;
 }
+
 .section-4 .container {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -471,11 +537,11 @@
 	grid-auto-columns: 1fr;
 	gap: 0px 0px;
 	grid-auto-flow: row;
-	grid-template-areas: 
-	"header"
-	"separator"
-	"content"
-	"finish";
+	grid-template-areas:
+		"header"
+		"separator"
+		"content"
+		"finish";
 	font-size: 25px;
 	color: #dde1e0;
 	font-family: 'Gentium Book Basic';
@@ -489,23 +555,28 @@
 	margin-left: auto;
 	color: White;
 }
+
 .section-4 .header {
 	grid-area: header;
 	font-family: 'Yeseva One';
 	font-size: 36px !important;
 }
+
 .section-4 .separator {
 	grid-area: separator;
 }
+
 .section-4 .content {
 	grid-area: content;
 }
+
 .section-4 .finish {
 	font-family: 'Lato';
 	font-size: 18px;
 	color: White;
 	grid-area: finish;
 }
+
 .section-4 .quote {
 	position: absolute;
 	font-family: 'Georgia';
@@ -520,6 +591,7 @@
 .section-5 {
 	position: relative;
 }
+
 .section-5-content {
 	position: absolute;
 	width: 1600px;
@@ -528,6 +600,7 @@
 	justify-content: center;
 	flex-wrap: wrap;
 }
+
 .section-5 .container {
 	padding-top: 98px;
 	padding-left: 214px;
@@ -536,13 +609,14 @@
 	grid-template-columns: 300px 300px 1fr;
 	grid-template-rows: 55px 50px 81px 89px 252px;
 	gap: 0px 0px 0px 0px;
-	grid-template-areas: 
-	"image1 image2 header"
-	"image1 image2 separator"
-	"image1 image2 description1"
-	"image1 image2 description2"
-	"image1 image2 container-user"
+	grid-template-areas:
+		"image1 image2 header"
+		"image1 image2 separator"
+		"image1 image2 description1"
+		"image1 image2 description2"
+		"image1 image2 container-user"
 }
+
 .section-5 .header {
 	font-family: 'Yeseva One';
 	font-size: 36px !important;
@@ -551,11 +625,13 @@
 	text-align: center;
 	grid-area: header;
 }
+
 .section-5 .separator {
 	grid-area: separator;
 	display: flex;
 	justify-content: center;
 }
+
 .section-5 .description1 {
 	text-align: center;
 	grid-area: description1;
@@ -563,6 +639,7 @@
 	font-size: 16px !important;
 	line-height: 24px;
 }
+
 .section-5 .description2 {
 	text-align: center;
 	grid-area: description2;
@@ -570,17 +647,20 @@
 	font-size: 16px !important;
 	line-height: 24px;
 }
+
 /*** USER ORDER FORM ***/
 .section-5 .container-user {
 	grid-area: container-user;
-    padding-left: 70px;
-    padding-right: 70px;
+	padding-left: 70px;
+	padding-right: 70px;
 }
+
 .section-5 .user-details {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
 .section-5 form .user-details span.details {
 	display: block;
 	font-weight: bold;
@@ -588,6 +668,7 @@
 	color: #d8a21d;
 	margin-bottom: 5px;
 }
+
 .section-5 .user-details input,
 .section-5 .user-details select {
 	outline: none;
@@ -601,23 +682,31 @@
 	background: rgba(255, 255, 255, 0.4);
 	transition: 0.25s;
 }
+
 .section-5 .user-details input:hover,
 .section-5 .user-details select:hover {
 	border: 1px solid #d8a21d;
 }
+
 .section-5 .user-details select {
 	height: 37px !important;
 }
-.section-5 .input-box, .input-box input {
+
+.section-5 .input-box,
+.input-box input {
 	width: 182px;
 }
-.section-5 .input-box, select {
+
+.section-5 .input-box,
+select {
 	width: 200px;
 }
+
 .section-5 .button {
 	text-align: center;
 	margin-top: 32px;
 }
+
 .section-5 .button input {
 	border: none;
 	color: #fff;
@@ -631,34 +720,40 @@
 	padding-left: 60px;
 	padding-right: 60px;
 }
+
 .section-5 .button input:hover {
 	background: #e7bc4d;
 }
+
 .section-5 .input-box {
 	margin-top: 22px;
 }
+
 /*** FOOTER ***/
 .footer {
 	position: relative;
 }
+
 .footer-content {
 	position: absolute;
 	width: 1600px;
 }
+
 .footer i {
 	margin-right: 7px;
 }
+
 .footer .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 40px 37px 96px 20px;
 	gap: 0px 0px;
 	grid-auto-flow: row;
-	grid-template-areas: 
-	"header-1 header-2 header-3"
-	"separator-1 separator-2 separator-3"
-	"content-1 content-2 content-3"
-	"finish-1 finish-2 finish3";
+	grid-template-areas:
+		"header-1 header-2 header-3"
+		"separator-1 separator-2 separator-3"
+		"content-1 content-2 content-3"
+		"finish-1 finish-2 finish3";
 	color: White;
 	font-family: 'Open Sans';
 	font-weight: 400;
@@ -669,35 +764,41 @@
 	margin-left: 200px;
 	margin-right: 200px;
 }
+
 .footer .container a {
 	color: White;
 }
+
 .footer .container [class^="header"] {
 	font-family: 'Yeseva One';
 	font-size: 21px !important;
 }
+
 .footer .container .bold-font {
 	font-family: 'Open Sans';
 	font-weight: 700 !important;
 }
 
 /*** BACKGROUNDS ***/
-.section-0 > img {
+.section-0>img {
 	height: 750px;
 	object-fit: cover;
 	object-position: 100% 0;
 }
-.section-2 > img {
+
+.section-2>img {
 	height: 758px;
 	object-fit: cover;
 	object-position: 100% 0;
 }
-.section-4 > img {
+
+.section-4>img {
 	height: 758px;
 	object-fit: cover;
 	object-position: 22% 78%;
 }
-.footer > img {
+
+.footer>img {
 	height: 320px;
 	object-fit: cover;
 	object-position: 100% 0;
