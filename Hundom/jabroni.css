@@ -18,10 +18,10 @@
 	margin: 0;
 	font-family: 'Rubik', sans-serif;
     color: #3a3a3a;
+	text-decoration: none;
 }
 
 a:hover {
-	color: #ff0;
 	text-shadow: 0 0 10px #ff0;
 }
 
@@ -205,4 +205,8 @@ body {
 }
 .github-corner svg {
     z-index: 1000;
+}
+
+.right-rail.search .noframe {
+    padding: 15px !important;
 }
