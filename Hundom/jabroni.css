@@ -20,7 +20,9 @@
     color: #3a3a3a;
 	text-decoration: none;
 }
-
+a {
+	color: #7d4924;
+}
 a:hover {
 	text-shadow: 0 0 10px #ff0;
 }
@@ -209,4 +211,8 @@ body {
 
 .right-rail.search .noframe {
     padding: 15px !important;
+}
+
+.see-also {
+	display: flex;
 }
