@@ -25,6 +25,9 @@ a:hover {
 	text-shadow: 0 0 10px #ff0;
 }
 
+body {
+	background-color: #42342d;
+}
 /* GLOBAL NAVIGATION */
 .global-navigation {
 	background-color: #42342d;
@@ -77,6 +80,7 @@ a:hover {
 	background-position: 50%;
 	background-size: cover;
 	height: 100%;
+	opacity: 50%;
 }
 
 .page-container .page-header {
@@ -150,6 +154,7 @@ a:hover {
 
 .page.has-right-rail .page-main {
     border-radius: 3px 0 0 3px;
+	padding-right: 15px !important;
 }
 
 .page.has-right-rail .right-rail {
@@ -161,6 +166,10 @@ a:hover {
     min-height: 100%;
 }
 
+.page.has-right-rail .right-rail  iframe {
+    display: block;
+    margin: 15px auto;
+}
 /* BUTTON */
 .wds-button {
 	margin: 10px 0;
@@ -188,4 +197,12 @@ a:hover {
 .page .featured img {
 	float: right;
 	padding: 0 0 0 20px;
+}
+
+
+#catalog > div {
+    display: block;
+}
+.github-corner svg {
+    z-index: 1000;
 }
