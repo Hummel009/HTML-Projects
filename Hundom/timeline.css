@@ -29,6 +29,10 @@
   }
 }
 
+.timeline {
+	margin-top: 20px;
+}
+
 .timeline--animate {
 	color: #42342d;
 }
