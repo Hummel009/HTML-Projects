@@ -119,7 +119,10 @@ a:hover {
     background: linear-gradient(to top,rgba(125,73,36,0.1) 54%,transparent 54%,transparent 100%);
 }
 
-.page-content h1, 
+.page-content h1 {
+	margin-bottom: 10px;
+}
+
 .page-content h2 {
 	margin-bottom: 10px;
 	margin-top: 10px;
