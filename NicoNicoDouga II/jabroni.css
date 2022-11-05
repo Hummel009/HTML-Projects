@@ -59,6 +59,7 @@ a:hover {
 .main-container .page-container {
 	margin: 0 auto 48px;
 	width: 95%;
+	max-width: 1090px;
 }
 
 .main-container .page-background {
