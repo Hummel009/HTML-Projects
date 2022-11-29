@@ -1,14 +1,21 @@
-document.getElementById("lang-en").onclick = function() {
-	toEng()
-};
 
-document.getElementById("find").onclick = function() {
-	find()
-};
+if (typeof (document.getElementById("lang-en")) != 'undefined' && document.getElementById("lang-en") != null) {
+	document.getElementById("lang-en").onclick = function() {
+		toEng()
+	};
+}
 
-document.getElementById("lang-be").onclick = function() {
-	toBel()
-};
+if (typeof (document.getElementById("lang-be")) != 'undefined' && document.getElementById("lang-be") != null) {
+	document.getElementById("lang-be").onclick = function() {
+		toBel()
+	};
+}
+
+if (typeof (document.getElementById("find")) != 'undefined' && document.getElementById("find") != null) {
+	document.getElementById("find").onclick = function() {
+		find()
+	};
+}
 
 loader();
 
@@ -49,7 +56,7 @@ function toEng() {
 		localStorage.setItem("quantity", "List of people");
 		localStorage.setItem("search", "Search");
 		localStorage.setItem("find", "Find");
-		
+
 		localStorage.setItem("kupala", "Janka Kupala");
 		localStorage.setItem("kolas", "Jakub Kolas");
 		localStorage.setItem("bagdanovich", "Maksim Bagdanovich");
@@ -78,7 +85,7 @@ function toBel() {
 		localStorage.setItem("langs", "Перакласці");
 		localStorage.setItem("search", "Пошук");
 		localStorage.setItem("find", "Знайсці");
-		
+
 		localStorage.setItem("kupala", "Янка Купала");
 		localStorage.setItem("kolas", "Якуб Колас");
 		localStorage.setItem("bagdanovich", "Максім Багдановіч");
@@ -101,51 +108,51 @@ function loadIfExists(string) {
 
 function find() {
 	var x = document.getElementById("mySearch").value;
-	if (x.toLowerCase().includes("yakub") 
-		|| x.toLowerCase().includes("jakub") 
-		|| x.toLowerCase().includes("якуб") 
-		|| x.toLowerCase().includes("колас") 
-		|| x.toLowerCase().includes("кolas") 
+	if (x.toLowerCase().includes("yakub")
+		|| x.toLowerCase().includes("jakub")
+		|| x.toLowerCase().includes("якуб")
+		|| x.toLowerCase().includes("колас")
+		|| x.toLowerCase().includes("кolas")
 		|| x.toLowerCase().includes("колос")) {
 		window.open("./jakub.html", "_self");
-	} else if (x.toLowerCase().includes("bagdanovich") 
-		|| x.toLowerCase().includes("bogdanovich") 
-		|| x.toLowerCase().includes("bagdanovicz") 
-		|| x.toLowerCase().includes("bogdanovicz") 
-		|| x.toLowerCase().includes("maxim") 
-		|| x.toLowerCase().includes("maksim") 
-		|| x.toLowerCase().includes("богданович") 
-		|| x.toLowerCase().includes("багданович") 
-		|| x.toLowerCase().includes("багдановіч") 
-		|| x.toLowerCase().includes("максім") 
+	} else if (x.toLowerCase().includes("bagdanovich")
+		|| x.toLowerCase().includes("bogdanovich")
+		|| x.toLowerCase().includes("bagdanovicz")
+		|| x.toLowerCase().includes("bogdanovicz")
+		|| x.toLowerCase().includes("maxim")
+		|| x.toLowerCase().includes("maksim")
+		|| x.toLowerCase().includes("богданович")
+		|| x.toLowerCase().includes("багданович")
+		|| x.toLowerCase().includes("багдановіч")
+		|| x.toLowerCase().includes("максім")
 		|| x.toLowerCase().includes("максим")) {
 		window.open("./bagdanovich.html", "_self");
-	} else if (x.toLowerCase().includes("gilevich") 
-		|| x.toLowerCase().includes("gilevicz") 
-		|| x.toLowerCase().includes("гілевіч") 
-		|| x.toLowerCase().includes("гилевич") 
-		|| x.toLowerCase().includes("нил") 
-		|| x.toLowerCase().includes("ніл") 
+	} else if (x.toLowerCase().includes("gilevich")
+		|| x.toLowerCase().includes("gilevicz")
+		|| x.toLowerCase().includes("гілевіч")
+		|| x.toLowerCase().includes("гилевич")
+		|| x.toLowerCase().includes("нил")
+		|| x.toLowerCase().includes("ніл")
 		|| x.toLowerCase().includes("nil")) {
 		window.open("./gilevich.html", "_self");
-	} else if (x.toLowerCase().includes("karatkevich") 
-		|| x.toLowerCase().includes("korotkevich") 
-		|| x.toLowerCase().includes("karatkevicz") 
+	} else if (x.toLowerCase().includes("karatkevich")
+		|| x.toLowerCase().includes("korotkevich")
+		|| x.toLowerCase().includes("karatkevicz")
 		|| x.toLowerCase().includes("korotkevicz")
-		|| x.toLowerCase().includes("караткевич")  
-		|| x.toLowerCase().includes("караткевіч") 
-		|| x.toLowerCase().includes("короткевич") 
-		|| x.toLowerCase().includes("uladzimir") 
-		|| x.toLowerCase().includes("vladimir") 
-		|| x.toLowerCase().includes("уладзимир") 
-		|| x.toLowerCase().includes("уладзімір") 
+		|| x.toLowerCase().includes("караткевич")
+		|| x.toLowerCase().includes("караткевіч")
+		|| x.toLowerCase().includes("короткевич")
+		|| x.toLowerCase().includes("uladzimir")
+		|| x.toLowerCase().includes("vladimir")
+		|| x.toLowerCase().includes("уладзимир")
+		|| x.toLowerCase().includes("уладзімір")
 		|| x.toLowerCase().includes("владимир")) {
 		window.open("./karatkevich.html", "_self");
-	} else if (x.toLowerCase().includes("kupala") 
-		|| x.toLowerCase().includes("купала") 
-		|| x.toLowerCase().includes("янка") 
-		|| x.toLowerCase().includes("yanka") 
+	} else if (x.toLowerCase().includes("kupala")
+		|| x.toLowerCase().includes("купала")
+		|| x.toLowerCase().includes("янка")
+		|| x.toLowerCase().includes("yanka")
 		|| x.toLowerCase().includes("janka")) {
 		window.open("./kupala.html", "_self");
-	} 
+	}
 }
