@@ -18,7 +18,6 @@ function loader() {
 	loadIfExists("bagdanovich");
 	loadIfExists("karatkevich");
 	loadIfExists("gilevich");
-	
 	loadIfExists("also");
 	loadIfExists("day");
 	loadIfExists("intro");
@@ -102,51 +101,51 @@ function loadIfExists(string) {
 
 function find() {
 	var x = document.getElementById("mySearch").value;
-	if (x.includes("Yakub") 
-		|| x.includes("Jakub") 
-		|| x.includes("Якуб") 
-		|| x.includes("Колас") 
-		|| x.includes("Kolas") 
-		|| x.includes("Колос")) {
+	if (x.toLowerCase().includes("yakub") 
+		|| x.toLowerCase().includes("jakub") 
+		|| x.toLowerCase().includes("якуб") 
+		|| x.toLowerCase().includes("колас") 
+		|| x.toLowerCase().includes("кolas") 
+		|| x.toLowerCase().includes("колос")) {
 		window.open("./jakub.html", "_self");
-	} else if (x.includes("Bagdanovich") 
-		|| x.includes("Bogdanovich") 
-		|| x.includes("Bagdanovicz") 
-		|| x.includes("Bogdanovicz") 
-		|| x.includes("Maxim") 
-		|| x.includes("Maksim") 
-		|| x.includes("Богданович") 
-		|| x.includes("Багданович") 
-		|| x.includes("Багдановіч") 
-		|| x.includes("Максім") 
-		|| x.includes("Максим")) {
+	} else if (x.toLowerCase().includes("bagdanovich") 
+		|| x.toLowerCase().includes("bogdanovich") 
+		|| x.toLowerCase().includes("bagdanovicz") 
+		|| x.toLowerCase().includes("bogdanovicz") 
+		|| x.toLowerCase().includes("maxim") 
+		|| x.toLowerCase().includes("maksim") 
+		|| x.toLowerCase().includes("богданович") 
+		|| x.toLowerCase().includes("багданович") 
+		|| x.toLowerCase().includes("багдановіч") 
+		|| x.toLowerCase().includes("максім") 
+		|| x.toLowerCase().includes("максим")) {
 		window.open("./bagdanovich.html", "_self");
-	} else if (x.includes("Gilevich") 
-		|| x.includes("Gilevicz") 
-		|| x.includes("Гілевіч") 
-		|| x.includes("Гилевич") 
-		|| x.includes("Нил") 
-		|| x.includes("Ніл") 
-		|| x.includes("Nil")) {
+	} else if (x.toLowerCase().includes("gilevich") 
+		|| x.toLowerCase().includes("gilevicz") 
+		|| x.toLowerCase().includes("гілевіч") 
+		|| x.toLowerCase().includes("гилевич") 
+		|| x.toLowerCase().includes("нил") 
+		|| x.toLowerCase().includes("ніл") 
+		|| x.toLowerCase().includes("nil")) {
 		window.open("./gilevich.html", "_self");
-	} else if (x.includes("Karatkevich") 
-		|| x.includes("Korotkevich") 
-		|| x.includes("Karatkevicz") 
-		|| x.includes("Korotkevicz")
-		|| x.includes("Караткевич")  
-		|| x.includes("Караткевіч") 
-		|| x.includes("Короткевич") 
-		|| x.includes("Uladzimir") 
-		|| x.includes("Vladimir") 
-		|| x.includes("Уладзимир") 
-		|| x.includes("Уладзімір") 
-		|| x.includes("Владимир")) {
+	} else if (x.toLowerCase().includes("karatkevich") 
+		|| x.toLowerCase().includes("korotkevich") 
+		|| x.toLowerCase().includes("karatkevicz") 
+		|| x.toLowerCase().includes("korotkevicz")
+		|| x.toLowerCase().includes("караткевич")  
+		|| x.toLowerCase().includes("караткевіч") 
+		|| x.toLowerCase().includes("короткевич") 
+		|| x.toLowerCase().includes("uladzimir") 
+		|| x.toLowerCase().includes("vladimir") 
+		|| x.toLowerCase().includes("уладзимир") 
+		|| x.toLowerCase().includes("уладзімір") 
+		|| x.toLowerCase().includes("владимир")) {
 		window.open("./karatkevich.html", "_self");
-	} else if (x.includes("Kupala") 
-		|| x.includes("Купала") 
-		|| x.includes("Янка") 
-		|| x.includes("Yanka") 
-		|| x.includes("Janka")) {
+	} else if (x.toLowerCase().includes("kupala") 
+		|| x.toLowerCase().includes("купала") 
+		|| x.toLowerCase().includes("янка") 
+		|| x.toLowerCase().includes("yanka") 
+		|| x.toLowerCase().includes("janka")) {
 		window.open("./kupala.html", "_self");
 	} 
 }
