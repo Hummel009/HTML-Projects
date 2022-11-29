@@ -247,3 +247,11 @@ body {
 .list span {
 	color: #7d4924;
 }
+
+.noframe input {
+    background: transparent;
+    border: 2px solid #42342d;
+    outline: none;
+    height: 25px;
+    border-radius: 3px;
+}
