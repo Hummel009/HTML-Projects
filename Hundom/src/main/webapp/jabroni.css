@@ -223,3 +223,9 @@ body {
 .see-also {
 	display: flex;
 }
+
+fieldset {
+    margin-bottom: 15px !important;
+    border-radius: 3px;
+    border: 2px solid;
+}
