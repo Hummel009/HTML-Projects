@@ -238,3 +238,12 @@ body {
     bottom: 20px;
     width: 270px;
 }
+
+.see-also span {
+	color: #7d4924;
+}
+
+.see-also span ,
+.list span {
+	color: #7d4924;
+}
