@@ -32,10 +32,10 @@
 				<div class="page-header">
 					<nav class="local-navigation">
 						<a href="index.html">
-							<span>Галоўная</span>
+							<span id="title">Галоўная</span>
 						</a>
 						<a href="list.html">
-							<span>Спіс дзеячаў</span>
+							<span id="list">Спіс дзеячаў</span>
 						</a>
 					</nav>
 				</div>
@@ -107,11 +107,21 @@
 					<aside class="right-rail">
 						<iframe width="90%" height="auto" src="https://www.youtube.com/embed/9mUbiD8jiJo"></iframe>
 						<iframe width="90%" height="300" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Minsk+(Place)&amp;t=&amp;z=7&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+						<form>
+							<fieldset class="rc-fieldset">
+								<legend id="langs">Перакласці:</legend>
+								<label>
+									<input type="radio" name="lang" value="be" id="lang-be" />Беларуская </label>
+								<label>
+									<input type="radio" name="lang" value="en" id="lang-en" /> English </label>
+							</fieldset>
+						</form>
 					</aside>
 				</div>
 			</div>
 		</div>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 		<script src="./assets/kupala/gallery.js"></script>
+		<script src="./amogus.js"></script>
 	</body>
 </html>

@@ -224,8 +224,17 @@ body {
 	display: flex;
 }
 
-fieldset {
+.main-fieldset {
     margin-bottom: 15px !important;
     border-radius: 3px;
     border: 2px solid;
+}
+
+.rc-fieldset {
+    margin-left: 20px !important;
+    border-radius: 3px;
+    border: 2px solid;
+    position: absolute;
+    bottom: 20px;
+    width: 270px;
 }
