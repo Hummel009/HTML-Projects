@@ -7,20 +7,11 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
-		<script
-      src="https://unpkg.com/react@latest/umd/react.development.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/react-dom@latest/umd/react-dom.development.js"></script>
-    <script
-      src="https://unpkg.com/@mui/material@latest/umd/material-ui.development.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://unpkg.com/babel-standalone@latest/babel.min.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+		<script src="https://unpkg.com/react@latest/umd/react.development.js" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/react-dom@latest/umd/react-dom.development.js"></script>
+		<script src="https://unpkg.com/@mui/material@latest/umd/material-ui.development.js" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/babel-standalone@latest/babel.min.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 	</head>
 	<body>
 		<div class="global-navigation">
@@ -52,54 +43,26 @@
 				</div>
 				<div class="page">
 					<main class="page-main">
-					
-    <div id="root"></div>
-    <script type="text/babel">
-      const {
-        colors,
-        CssBaseline,
-        ThemeProvider,
-        Typography,
-        Container,
-        createTheme,
-        Box,
-        SvgIcon,
-        Link,
-      } = MaterialUI;
-
-      const theme = createTheme({
-      });
-
-      function LightBulbIcon(props) {
-        return (
-          <SvgIcon {...props}>
-            <path d="M11.88 9.14c1.28.06 1.61 1.15 1.63 1.66h1.79c-.08-1.98-1.49-3.19-3.45-3.19C9.64 7.61 8 9 8 12.14c0 1.94.93 4.24 3.84 4.24 2.22 0 3.41-1.65 3.44-2.95h-1.79c-.03.59-.45 1.38-1.63 1.44-1.31-.04-1.86-1.06-1.86-2.73 0-2.89 1.28-2.98 1.88-3zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
-          </SvgIcon>
-        );
-      }
-
-      function ProTip() {
-        return (
-          <Typography sx={{ mb: 3 }}>
-            <LightBulbIcon sx={{ mr: 1, verticalAlign: 'top' }} />
-            2022 Deep Dark Fantasies, Inc
-          </Typography>
-        );
-      }
-	  
-      function App() {
-        return (
-              <ProTip />
-        );
-      }
-
-      const root = ReactDOM.createRoot(document.getElementById('root'));
-      root.render(
-        <ThemeProvider theme={theme}>
-        <App />
-        </ThemeProvider>,
-      );
-    </script>
+						<div id="root"></div>
+						<script type="text/babel"> const { colors, CssBaseline, ThemeProvider, Typography, Container, createTheme, Box, SvgIcon, Link, } = MaterialUI;
+							const theme = createTheme();
+							function LightBulbIcon(props) {
+							    return (
+									<SvgIcon sx={{ mr: 1, verticalAlign: 'top' }}>
+										<path d="M11.88 9.14c1.28.06 1.61 1.15 1.63 1.66h1.79c-.08-1.98-1.49-3.19-3.45-3.19C9.64 7.61 8 9 8 12.14c0 1.94.93 4.24 3.84 4.24 2.22 0 3.41-1.65 3.44-2.95h-1.79c-.03.59-.45 1.38-1.63 1.44-1.31-.04-1.86-1.06-1.86-2.73 0-2.89 1.28-2.98 1.88-3zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+									</SvgIcon>
+								);
+							}
+							const root = ReactDOM.createRoot(document.getElementById('root'));
+							root.render(
+								<ThemeProvider theme={theme}>
+									<Typography sx={{ mb: 3 }}>
+										<LightBulbIcon/>2022 Deep Dark Fantasies, Inc
+									</Typography>
+								</ThemeProvider>,
+								);
+    
+						</script>
 						<form>
 							<fieldset class="main-fieldset">
 								<legend id="langs">Перакласці:</legend>
@@ -128,22 +91,32 @@
 						</h2>
 						<div class="see-also">
 							<ul>
-							<li>
-								<a href="kupala.html"><span id="kupala">Янка Купала</span></a>
-							</li>
-							<li>
-								<a href="jakub.html"><span id="kolas">Якуб Колас</span></a>
-							</li>
-							<li>
-								<a href="gilevich.html"><span id="gilevich">Ніл Гілевіч</span></a>
-							</li>
-							<li>
-								<a href="karatkevich.html"><span id="karatkevich">Уладзімір Караткевіч</span></a>
-							</li>
-							<li>
-								<a href="bagdanovich.html"><span id="bagdanovich">Максім Багдановіч</span></a>
-							</li>
-						</ul>
+								<li>
+									<a href="kupala.html">
+										<span id="kupala">Янка Купала</span>
+									</a>
+								</li>
+								<li>
+									<a href="jakub.html">
+										<span id="kolas">Якуб Колас</span>
+									</a>
+								</li>
+								<li>
+									<a href="gilevich.html">
+										<span id="gilevich">Ніл Гілевіч</span>
+									</a>
+								</li>
+								<li>
+									<a href="karatkevich.html">
+										<span id="karatkevich">Уладзімір Караткевіч</span>
+									</a>
+								</li>
+								<li>
+									<a href="bagdanovich.html">
+										<span id="bagdanovich">Максім Багдановіч</span>
+									</a>
+								</li>
+							</ul>
 							<ul>
 								<li>
 									<a href="http://be.wikipedia.org/wiki/Людзі_на_балоце">«Людзі на балоце»</a>
@@ -188,7 +161,7 @@
 				</div>
 			</div>
 		</div>
-	<script src="./amogus.js"></script>
-	<script src="./random.js"></script>
+		<script src="./amogus.js"></script>
+		<script src="./random.js"></script>
 	</body>
 </html>
