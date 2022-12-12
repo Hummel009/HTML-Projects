@@ -198,11 +198,12 @@ body {
 }
 
 /* CONTENT MAIN */
-.page [class^="featured"] {
-	min-height: 226px;
+.page:not(.has-right-rail) [class^="featured"] {
 	display: none;
 }
-
+.page [class^="featured"] {
+	min-height: 226px;
+}
 .page [class^="featured"] img {
 	float: right;
 	padding: 0 0 0 20px;
