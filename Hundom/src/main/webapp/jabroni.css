@@ -198,15 +198,15 @@ body {
 }
 
 /* CONTENT MAIN */
-.page .featured {
+.page [class^="featured"] {
 	min-height: 226px;
+	display: none;
 }
 
-.page .featured img {
+.page [class^="featured"] img {
 	float: right;
 	padding: 0 0 0 20px;
 }
-
 
 #catalog>div {
 	display: block;
