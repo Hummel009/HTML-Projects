@@ -268,3 +268,9 @@ body {
 		padding-top: 100px;
 	}
 }
+
+.global-navigation {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
